@@ -1,0 +1,282 @@
+[2.568s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.569s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f10c40021d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f10c40034f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f10c40034f0>>)
+[2.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.724s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/linh/ser_ws'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.795s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.795s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ignore'
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ignore_ament_install'
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['colcon_pkg']
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'colcon_pkg'
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['colcon_meta']
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'colcon_meta'
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['ros']
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ros'
+[2.807s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthimage_to_laserscan' with type 'ros.ament_cmake' and name 'depthimage_to_laserscan'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[2.812s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ignore'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'colcon_pkg'
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['colcon_meta']
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'colcon_meta'
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['ros']
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ros'
+[2.815s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense_gazebo_plugin' with type 'ros.catkin' and name 'realsense_gazebo_plugin'
+[2.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.140s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/linh/ser_ws/install
+[3.188s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[3.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.464s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'depthimage_to_laserscan' is in: /home/linh/ser_ws/install/depthimage_to_laserscan, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding depthimage_to_laserscan
+
+This may be promoted to an error in a future release of colcon-override-check.
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[3.513s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.513s] DEBUG:colcon.colcon_core.verb:Building package 'depthimage_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linh/ser_ws/build/depthimage_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linh/ser_ws/install/depthimage_to_laserscan', 'merge_install': False, 'path': '/home/linh/ser_ws/src/depthimage_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.533s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linh/ser_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linh/ser_ws/install/my_bot', 'merge_install': False, 'path': '/home/linh/ser_ws/src/my_bot', 'symlink_install': False, 'test_result_base': None}
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[3.564s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[3.564s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.564s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.566s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linh/ser_ws/build/realsense_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linh/ser_ws/install/realsense_gazebo_plugin', 'merge_install': False, 'path': '/home/linh/ser_ws/src/realsense_gazebo_plugin', 'symlink_install': False, 'test_result_base': None}
+[3.601s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.624s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linh/ser_ws/src/depthimage_to_laserscan' with build type 'ament_cmake'
+[3.624s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linh/ser_ws/src/depthimage_to_laserscan'
+[3.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.863s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linh/ser_ws/src/my_bot' with build type 'ament_cmake'
+[3.864s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linh/ser_ws/src/my_bot'
+[3.908s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.908s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linh/ser_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/linh/ser_ws/build/depthimage_to_laserscan -- -j2 -l2
+[4.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linh/ser_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/linh/ser_ws/build/my_bot -- -j2 -l2
+[4.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linh/ser_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/linh/ser_ws/build/my_bot -- -j2 -l2
+[4.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linh/ser_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/linh/ser_ws/build/my_bot
+[4.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[4.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linh/ser_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/linh/ser_ws/build/my_bot
+[4.734s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot' for CMake module files
+[4.736s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot' for CMake config files
+[4.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[4.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[4.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot/bin'
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot/lib/python3.10/site-packages'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot/bin'
+[4.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/my_bot/share/my_bot/package.ps1'
+[4.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linh/ser_ws/install/my_bot/share/my_bot/package.dsv'
+[4.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/my_bot/share/my_bot/package.sh'
+[4.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/my_bot/share/my_bot/package.bash'
+[4.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/my_bot/share/my_bot/package.zsh'
+[4.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linh/ser_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[5.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[5.307s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot' for CMake module files
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot' for CMake config files
+[5.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[5.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[5.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[5.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[5.402s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot/bin'
+[5.402s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[5.403s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot/lib/python3.10/site-packages'
+[5.403s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/my_bot/bin'
+[5.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/my_bot/share/my_bot/package.ps1'
+[5.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linh/ser_ws/install/my_bot/share/my_bot/package.dsv'
+[5.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/my_bot/share/my_bot/package.sh'
+[5.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/my_bot/share/my_bot/package.bash'
+[5.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/my_bot/share/my_bot/package.zsh'
+[5.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linh/ser_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[5.485s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/linh/ser_ws/src/realsense_gazebo_plugin' with build type 'catkin'
+[5.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linh/ser_ws/src/realsense_gazebo_plugin'
+[5.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linh/ser_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/linh/ser_ws/build/realsense_gazebo_plugin -- -j2 -l2
+[6.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linh/ser_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/linh/ser_ws/build/depthimage_to_laserscan -- -j2 -l2
+[6.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linh/ser_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/linh/ser_ws/build/depthimage_to_laserscan
+[6.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthimage_to_laserscan)
+[6.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linh/ser_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/linh/ser_ws/build/depthimage_to_laserscan
+[6.688s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan' for CMake module files
+[6.691s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan' for CMake config files
+[6.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'cmake_prefix_path')
+[6.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.ps1'
+[6.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.dsv'
+[6.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.sh'
+[6.772s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/lib'
+[6.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'ld_library_path_lib')
+[6.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.ps1'
+[6.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.dsv'
+[6.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.sh'
+[6.828s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/bin'
+[6.828s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc'
+[6.829s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/lib/python3.10/site-packages'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/bin'
+[6.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.ps1'
+[6.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv'
+[6.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.sh'
+[6.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.bash'
+[6.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.zsh'
+[6.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linh/ser_ws/install/depthimage_to_laserscan/share/colcon-core/packages/depthimage_to_laserscan)
+[6.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linh/ser_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --build /home/linh/ser_ws/build/realsense_gazebo_plugin -- -j2 -l2
+[7.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthimage_to_laserscan)
+[7.538s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan' for CMake module files
+[7.551s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan' for CMake config files
+[7.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'cmake_prefix_path')
+[7.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.ps1'
+[7.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.dsv'
+[7.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.sh'
+[7.618s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/lib'
+[7.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'ld_library_path_lib')
+[7.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.ps1'
+[7.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.dsv'
+[7.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.sh'
+[7.678s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/bin'
+[7.679s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc'
+[7.679s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/lib/python3.10/site-packages'
+[7.680s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/depthimage_to_laserscan/bin'
+[7.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.ps1'
+[7.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv'
+[7.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.sh'
+[7.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.bash'
+[7.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.zsh'
+[7.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linh/ser_ws/install/depthimage_to_laserscan/share/colcon-core/packages/depthimage_to_laserscan)
+[7.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linh/ser_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --install /home/linh/ser_ws/build/realsense_gazebo_plugin
+[7.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linh/ser_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --install /home/linh/ser_ws/build/realsense_gazebo_plugin
+[8.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ros_package_path')
+[8.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ros_package_path.ps1'
+[8.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ros_package_path.dsv'
+[8.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ros_package_path.sh'
+[8.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'pkg_config_path')
+[8.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/pkg_config_path.ps1'
+[8.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/pkg_config_path.dsv'
+[8.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/pkg_config_path.sh'
+[8.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'pkg_config_path_multiarch')
+[8.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/pkg_config_path_multiarch.ps1'
+[8.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/pkg_config_path_multiarch.dsv'
+[8.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/pkg_config_path_multiarch.sh'
+[8.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[8.301s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/realsense_gazebo_plugin' for CMake module files
+[8.301s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/realsense_gazebo_plugin' for CMake config files
+[8.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[8.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[8.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[8.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[8.358s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/realsense_gazebo_plugin/lib'
+[8.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[8.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[8.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[8.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[8.399s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/realsense_gazebo_plugin/bin'
+[8.399s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[8.399s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[8.399s] Level 1:colcon.colcon_core.environment:checking '/home/linh/ser_ws/install/realsense_gazebo_plugin/bin'
+[8.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[8.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[8.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[8.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[8.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[8.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linh/ser_ws/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[8.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.435s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.522s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.692s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/linh/ser_ws/install/local_setup.ps1'
+[8.771s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/linh/ser_ws/install/_local_setup_util_ps1.py'
+[8.780s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/linh/ser_ws/install/setup.ps1'
+[8.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/linh/ser_ws/install/local_setup.sh'
+[8.840s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/linh/ser_ws/install/_local_setup_util_sh.py'
+[8.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/linh/ser_ws/install/setup.sh'
+[8.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/linh/ser_ws/install/local_setup.bash'
+[8.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/linh/ser_ws/install/setup.bash'
+[8.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/linh/ser_ws/install/local_setup.zsh'
+[8.946s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/linh/ser_ws/install/setup.zsh'

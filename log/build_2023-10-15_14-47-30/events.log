@@ -1,0 +1,2208 @@
+[0.000000] (-) TimerEvent: {}
+[0.001946] (depthimage_to_laserscan) JobQueued: {'identifier': 'depthimage_to_laserscan', 'dependencies': OrderedDict()}
+[0.002077] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002190] (realsense_gazebo_plugin) JobQueued: {'identifier': 'realsense_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.002301] (depthimage_to_laserscan) JobStarted: {'identifier': 'depthimage_to_laserscan'}
+[0.113329] (-) TimerEvent: {}
+[0.154749] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.213863] (-) TimerEvent: {}
+[0.289797] (depthimage_to_laserscan) JobProgress: {'identifier': 'depthimage_to_laserscan', 'progress': 'cmake'}
+[0.290344] (depthimage_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '/home/linh/ser_ws/src/depthimage_to_laserscan', '-DCMAKE_INSTALL_PREFIX=/home/linh/ser_ws/install/depthimage_to_laserscan'], 'cwd': '/home/linh/ser_ws/build/depthimage_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/depthimage_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.315777] (-) TimerEvent: {}
+[0.323254] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.324845] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/linh/ser_ws/src/my_bot', '-DCMAKE_INSTALL_PREFIX=/home/linh/ser_ws/install/my_bot'], 'cwd': '/home/linh/ser_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.415578] (-) TimerEvent: {}
+[0.516355] (-) TimerEvent: {}
+[0.616934] (-) TimerEvent: {}
+[0.717514] (-) TimerEvent: {}
+[0.818413] (-) TimerEvent: {}
+[0.919111] (-) TimerEvent: {}
+[0.973358] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.990816] (depthimage_to_laserscan) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.019279] (-) TimerEvent: {}
+[1.120027] (-) TimerEvent: {}
+[1.220810] (-) TimerEvent: {}
+[1.321562] (-) TimerEvent: {}
+[1.413723] (depthimage_to_laserscan) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.421725] (-) TimerEvent: {}
+[1.455219] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.466231] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.497282] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.521902] (-) TimerEvent: {}
+[1.622460] (-) TimerEvent: {}
+[1.700107] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.716370] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.718723] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.721943] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.722854] (-) TimerEvent: {}
+[1.734989] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.785526] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.805157] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.806575] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.809316] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.814753] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.823014] (-) TimerEvent: {}
+[1.925295] (-) TimerEvent: {}
+[2.025993] (-) TimerEvent: {}
+[2.086153] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.100663] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.118844] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.120268] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.123810] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.126143] (-) TimerEvent: {}
+[2.133828] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.135081] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.137641] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.149801] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.164150] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.226283] (-) TimerEvent: {}
+[2.326867] (-) TimerEvent: {}
+[2.427303] (-) TimerEvent: {}
+[2.527825] (-) TimerEvent: {}
+[2.628339] (-) TimerEvent: {}
+[2.661769] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.680864] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.728486] (-) TimerEvent: {}
+[2.829188] (-) TimerEvent: {}
+[2.929679] (-) TimerEvent: {}
+[2.966417] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[2.971761] (my_bot) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[3.029837] (-) TimerEvent: {}
+[3.113563] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.129960] (-) TimerEvent: {}
+[3.176368] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.206660] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.233994] (-) TimerEvent: {}
+[3.257498] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.317996] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.318976] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.321829] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.324217] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.333397] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.334169] (-) TimerEvent: {}
+[3.340310] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.349891] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[3.352979] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/linh/ser_ws/build/my_bot\n'}
+[3.368820] (my_bot) CommandEnded: {'returncode': 0}
+[3.369625] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[3.369685] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linh/ser_ws/build/my_bot', '--', '-j2', '-l2'], 'cwd': '/home/linh/ser_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.399836] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.434333] (-) TimerEvent: {}
+[3.494134] (my_bot) CommandEnded: {'returncode': 0}
+[3.534473] (-) TimerEvent: {}
+[3.583525] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[3.635427] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/linh/ser_ws/build/my_bot'], 'cwd': '/home/linh/ser_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.637051] (-) TimerEvent: {}
+[3.654223] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.655492] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config\n'}
+[3.657888] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/p2l.yaml\n'}
+[3.666542] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[3.671806] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[3.675661] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/nav2_params.yaml\n'}
+[3.679384] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/ekf.yaml\n'}
+[3.682782] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/view.rviz\n'}
+[3.685390] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[3.688180] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[3.699646] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[3.702153] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/maze_final.rviz\n'}
+[3.705013] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/param.yaml\n'}
+[3.707774] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/twist_mux.yaml\n'}
+[3.710557] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/map.rviz\n'}
+[3.713307] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/config/drive.rviz\n'}
+[3.715231] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description\n'}
+[3.716356] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[3.718180] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description/imu.xacro\n'}
+[3.720347] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[3.723034] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[3.724588] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[3.726201] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[3.727802] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[3.729442] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[3.731099] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch\n'}
+[3.731994] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/rtabmap.launch.py\n'}
+[3.733359] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/p2l.launch.py\n'}
+[3.734927] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/online_async_launch.py\n'}
+[3.736460] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/localization_launch.py\n'}
+[3.737818] (-) TimerEvent: {}
+[3.738331] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/camera.launch.py\n'}
+[3.740682] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[3.742257] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/map.launch.py\n'}
+[3.744920] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[3.746040] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[3.747942] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[3.750805] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/navigation_launch.py\n'}
+[3.752465] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/launch/rgbd.launch.py\n'}
+[3.754149] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/meshes\n'}
+[3.754601] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/meshes/camera_link.dae\n'}
+[3.760941] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/meshes/chassis_link.dae\n'}
+[3.837984] (-) TimerEvent: {}
+[3.879638] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/meshes/wheel_link.dae\n'}
+[3.938300] (-) TimerEvent: {}
+[3.973243] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/meshes/plug.stl\n'}
+[3.995043] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/meshes/caster_wheel_link.dae\n'}
+[4.038476] (-) TimerEvent: {}
+[4.046771] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core \n'}
+[4.053270] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.067706] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/meshes/plug_collision.stl\n'}
+[4.072823] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/meshes/d435.dae\n'}
+[4.138725] (-) TimerEvent: {}
+[4.241135] (-) TimerEvent: {}
+[4.260695] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.272101] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.341312] (-) TimerEvent: {}
+[4.441884] (-) TimerEvent: {}
+[4.530774] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.542872] (-) TimerEvent: {}
+[4.590923] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.643094] (-) TimerEvent: {}
+[4.668432] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.720626] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.743210] (-) TimerEvent: {}
+[4.845111] (-) TimerEvent: {}
+[4.945505] (-) TimerEvent: {}
+[4.963730] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[4.964696] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[4.965694] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[4.966400] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[4.966933] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[4.967431] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[4.968038] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[4.968509] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[4.969331] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[4.970063] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[4.970765] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[4.971546] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[4.972100] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[4.972666] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[4.973312] (my_bot) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/my_bot/share/my_bot/package.xml\n'}
+[4.982638] (my_bot) CommandEnded: {'returncode': 0}
+[5.045681] (-) TimerEvent: {}
+[5.146161] (-) TimerEvent: {}
+[5.174257] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.176715] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.246317] (-) TimerEvent: {}
+[5.346900] (-) TimerEvent: {}
+[5.379877] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[5.382019] (realsense_gazebo_plugin) JobStarted: {'identifier': 'realsense_gazebo_plugin'}
+[5.435579] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.438962] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.447094] (-) TimerEvent: {}
+[5.547532] (-) TimerEvent: {}
+[5.555091] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'cmake'}
+[5.555235] (realsense_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/linh/ser_ws/src/realsense_gazebo_plugin', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/linh/ser_ws/install/realsense_gazebo_plugin'], 'cwd': '/home/linh/ser_ws/build/realsense_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/realsense_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[5.647700] (-) TimerEvent: {}
+[5.748322] (-) TimerEvent: {}
+[5.852055] (-) TimerEvent: {}
+[5.852506] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.952211] (-) TimerEvent: {}
+[5.971093] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[6.038591] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.052352] (-) TimerEvent: {}
+[6.060306] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.152494] (-) TimerEvent: {}
+[6.254253] (-) TimerEvent: {}
+[6.297050] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.308264] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[6.343443] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.343987] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.344957] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.354400] (-) TimerEvent: {}
+[6.369579] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.454661] (-) TimerEvent: {}
+[6.555386] (-) TimerEvent: {}
+[6.656633] (-) TimerEvent: {}
+[6.750851] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.756752] (-) TimerEvent: {}
+[6.760758] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.761921] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.763136] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.768264] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.820517] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[6.822906] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[6.856958] (-) TimerEvent: {}
+[6.957704] (-) TimerEvent: {}
+[7.058716] (-) TimerEvent: {}
+[7.071702] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[7.073839] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[7.158867] (-) TimerEvent: {}
+[7.259500] (-) TimerEvent: {}
+[7.265809] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[7.359630] (-) TimerEvent: {}
+[7.380497] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[7.412986] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.459769] (-) TimerEvent: {}
+[7.528247] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.559888] (-) TimerEvent: {}
+[7.620130] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.627426] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.645678] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.660353] (-) TimerEvent: {}
+[7.681347] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.756634] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.760477] (-) TimerEvent: {}
+[7.761274] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[7.789106] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.815092] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.816144] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linh/ser_ws/src/depthimage_to_laserscan/include>\n'}
+[7.816327] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.828705] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.829011] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.832015] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.837082] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.840620] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.852520] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.852842] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.857400] (depthimage_to_laserscan) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.860597] (-) TimerEvent: {}
+[7.894750] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.936829] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.942715] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.960755] (-) TimerEvent: {}
+[8.047708] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Generating done\n'}
+[8.060895] (-) TimerEvent: {}
+[8.062496] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Build files have been written to: /home/linh/ser_ws/build/depthimage_to_laserscan\n'}
+[8.109642] (depthimage_to_laserscan) CommandEnded: {'returncode': 0}
+[8.110939] (depthimage_to_laserscan) JobProgress: {'identifier': 'depthimage_to_laserscan', 'progress': 'build'}
+[8.111026] (depthimage_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linh/ser_ws/build/depthimage_to_laserscan', '--', '-j2', '-l2'], 'cwd': '/home/linh/ser_ws/build/depthimage_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/depthimage_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.161056] (-) TimerEvent: {}
+[8.262466] (-) TimerEvent: {}
+[8.278318] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.308168] (depthimage_to_laserscan) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/DepthImageToLaserScan.dir/src/DepthImageToLaserScan.cpp.o\x1b[0m\n'}
+[8.362621] (-) TimerEvent: {}
+[8.419857] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.462741] (-) TimerEvent: {}
+[8.517497] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.529902] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.562878] (-) TimerEvent: {}
+[8.663429] (-) TimerEvent: {}
+[8.703137] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.704412] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.763600] (-) TimerEvent: {}
+[8.867609] (-) TimerEvent: {}
+[8.883795] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.886016] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.967743] (-) TimerEvent: {}
+[9.068253] (-) TimerEvent: {}
+[9.168947] (-) TimerEvent: {}
+[9.183695] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[9.223854] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[9.226787] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[9.266110] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[9.269041] (-) TimerEvent: {}
+[9.369442] (-) TimerEvent: {}
+[9.469875] (-) TimerEvent: {}
+[9.533165] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[9.570074] (-) TimerEvent: {}
+[9.645588] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[9.670323] (-) TimerEvent: {}
+[9.704609] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[9.769804] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[9.770421] (-) TimerEvent: {}
+[9.837810] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[9.854491] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[9.870661] (-) TimerEvent: {}
+[9.879121] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[9.886671] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[9.887720] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[9.899747] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[9.927705] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[9.970742] (-) TimerEvent: {}
+[9.997916] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[10.012635] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[10.028286] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[10.037011] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[10.038134] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[10.046017] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[10.046829] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[10.055353] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[10.056152] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[10.063812] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[10.064556] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[10.070872] (-) TimerEvent: {}
+[10.074897] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[10.075946] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[10.086194] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[10.171012] (-) TimerEvent: {}
+[10.271810] (-) TimerEvent: {}
+[10.289028] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[10.296488] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[10.300618] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[10.338912] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[10.359955] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[10.373983] (-) TimerEvent: {}
+[10.374630] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[10.412814] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[10.474121] (-) TimerEvent: {}
+[10.505377] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[10.521577] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[10.558963] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[10.574271] (-) TimerEvent: {}
+[10.641299] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[10.649628] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.651636] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[10.674405] (-) TimerEvent: {}
+[10.682448] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[10.696089] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[10.727874] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[10.774727] (-) TimerEvent: {}
+[10.819552] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.830656] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.833474] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[10.836191] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[10.839134] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[10.842457] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[10.865791] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[10.869519] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[10.874849] (-) TimerEvent: {}
+[10.875603] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[10.877458] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[10.879131] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[10.888524] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[10.890139] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[10.975049] (-) TimerEvent: {}
+[11.069930] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[11.075167] (-) TimerEvent: {}
+[11.094851] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[11.130324] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[11.176418] (-) TimerEvent: {}
+[11.217637] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[11.231921] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[11.266266] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[11.276583] (-) TimerEvent: {}
+[11.377351] (-) TimerEvent: {}
+[11.409818] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[11.414446] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[11.417533] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[11.420529] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[11.439418] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[11.442142] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[11.477490] (-) TimerEvent: {}
+[11.492688] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[11.577728] (-) TimerEvent: {}
+[11.651780] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[11.677879] (-) TimerEvent: {}
+[11.778761] (-) TimerEvent: {}
+[11.879751] (-) TimerEvent: {}
+[11.980745] (-) TimerEvent: {}
+[12.081696] (-) TimerEvent: {}
+[12.154613] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[12.181888] (-) TimerEvent: {}
+[12.282844] (-) TimerEvent: {}
+[12.362092] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.382980] (-) TimerEvent: {}
+[12.483903] (-) TimerEvent: {}
+[12.584856] (-) TimerEvent: {}
+[12.591748] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.685055] (-) TimerEvent: {}
+[12.785992] (-) TimerEvent: {}
+[12.792624] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[12.807785] (realsense_gazebo_plugin) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[12.809331] (realsense_gazebo_plugin) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[12.813241] (realsense_gazebo_plugin) StderrLine: {'line': b'\n'}
+[12.814659] (realsense_gazebo_plugin) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[12.816250] (realsense_gazebo_plugin) StderrLine: {'line': b'\n'}
+[12.817840] (realsense_gazebo_plugin) StderrLine: {'line': b'\x1b[0m\n'}
+[12.827737] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/linh/ser_ws/build/realsense_gazebo_plugin\n'}
+[12.885550] (realsense_gazebo_plugin) CommandEnded: {'returncode': 0}
+[12.887616] (-) TimerEvent: {}
+[12.888354] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'build'}
+[12.888683] (realsense_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linh/ser_ws/build/realsense_gazebo_plugin', '--', '-j2', '-l2'], 'cwd': '/home/linh/ser_ws/build/realsense_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/realsense_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[12.987806] (-) TimerEvent: {}
+[13.077341] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX shared library libDepthImageToLaserScan.so\x1b[0m\n'}
+[13.087936] (-) TimerEvent: {}
+[13.094465] (realsense_gazebo_plugin) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o\x1b[0m\n'}
+[13.188114] (-) TimerEvent: {}
+[13.289000] (-) TimerEvent: {}
+[13.389957] (-) TimerEvent: {}
+[13.465742] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 16%] Built target DepthImageToLaserScan\n'}
+[13.490119] (-) TimerEvent: {}
+[13.539895] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[13.590261] (-) TimerEvent: {}
+[13.691177] (-) TimerEvent: {}
+[13.792105] (-) TimerEvent: {}
+[13.892816] (-) TimerEvent: {}
+[13.993660] (-) TimerEvent: {}
+[14.094625] (-) TimerEvent: {}
+[14.195280] (-) TimerEvent: {}
+[14.295933] (-) TimerEvent: {}
+[14.396728] (-) TimerEvent: {}
+[14.497509] (-) TimerEvent: {}
+[14.598248] (-) TimerEvent: {}
+[14.698909] (-) TimerEvent: {}
+[14.799718] (-) TimerEvent: {}
+[14.900438] (-) TimerEvent: {}
+[15.001133] (-) TimerEvent: {}
+[15.101855] (-) TimerEvent: {}
+[15.202494] (-) TimerEvent: {}
+[15.306823] (-) TimerEvent: {}
+[15.414888] (-) TimerEvent: {}
+[15.515435] (-) TimerEvent: {}
+[15.615929] (-) TimerEvent: {}
+[15.716755] (-) TimerEvent: {}
+[15.817597] (-) TimerEvent: {}
+[15.918413] (-) TimerEvent: {}
+[16.019372] (-) TimerEvent: {}
+[16.052560] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[16.119508] (-) TimerEvent: {}
+[16.172258] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[16.219737] (-) TimerEvent: {}
+[16.244462] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[16.320220] (-) TimerEvent: {}
+[16.421290] (-) TimerEvent: {}
+[16.522192] (-) TimerEvent: {}
+[16.622963] (-) TimerEvent: {}
+[16.723913] (-) TimerEvent: {}
+[16.824896] (-) TimerEvent: {}
+[16.925932] (-) TimerEvent: {}
+[17.026962] (-) TimerEvent: {}
+[17.127937] (-) TimerEvent: {}
+[17.228754] (-) TimerEvent: {}
+[17.329582] (-) TimerEvent: {}
+[17.430575] (-) TimerEvent: {}
+[17.531499] (-) TimerEvent: {}
+[17.632569] (-) TimerEvent: {}
+[17.733234] (-) TimerEvent: {}
+[17.834000] (-) TimerEvent: {}
+[17.934599] (-) TimerEvent: {}
+[18.035120] (-) TimerEvent: {}
+[18.136056] (-) TimerEvent: {}
+[18.236762] (-) TimerEvent: {}
+[18.337682] (-) TimerEvent: {}
+[18.438712] (-) TimerEvent: {}
+[18.539724] (-) TimerEvent: {}
+[18.640563] (-) TimerEvent: {}
+[18.743837] (-) TimerEvent: {}
+[18.844829] (-) TimerEvent: {}
+[18.948540] (-) TimerEvent: {}
+[19.049303] (-) TimerEvent: {}
+[19.155545] (-) TimerEvent: {}
+[19.256734] (-) TimerEvent: {}
+[19.357312] (-) TimerEvent: {}
+[19.458097] (-) TimerEvent: {}
+[19.559128] (-) TimerEvent: {}
+[19.659806] (-) TimerEvent: {}
+[19.760325] (-) TimerEvent: {}
+[19.861088] (-) TimerEvent: {}
+[19.961701] (-) TimerEvent: {}
+[20.062743] (-) TimerEvent: {}
+[20.163768] (-) TimerEvent: {}
+[20.264816] (-) TimerEvent: {}
+[20.365889] (-) TimerEvent: {}
+[20.466912] (-) TimerEvent: {}
+[20.567897] (-) TimerEvent: {}
+[20.668726] (-) TimerEvent: {}
+[20.769444] (-) TimerEvent: {}
+[20.870033] (-) TimerEvent: {}
+[20.970741] (-) TimerEvent: {}
+[21.071500] (-) TimerEvent: {}
+[21.172394] (-) TimerEvent: {}
+[21.273058] (-) TimerEvent: {}
+[21.373738] (-) TimerEvent: {}
+[21.474353] (-) TimerEvent: {}
+[21.574971] (-) TimerEvent: {}
+[21.675643] (-) TimerEvent: {}
+[21.776181] (-) TimerEvent: {}
+[21.876839] (-) TimerEvent: {}
+[21.977428] (-) TimerEvent: {}
+[22.078246] (-) TimerEvent: {}
+[22.179157] (-) TimerEvent: {}
+[22.279790] (-) TimerEvent: {}
+[22.380389] (-) TimerEvent: {}
+[22.481028] (-) TimerEvent: {}
+[22.581553] (-) TimerEvent: {}
+[22.682238] (-) TimerEvent: {}
+[22.783248] (-) TimerEvent: {}
+[22.884097] (-) TimerEvent: {}
+[22.984863] (-) TimerEvent: {}
+[23.085501] (-) TimerEvent: {}
+[23.186448] (-) TimerEvent: {}
+[23.288064] (-) TimerEvent: {}
+[23.388841] (-) TimerEvent: {}
+[23.489383] (-) TimerEvent: {}
+[23.589966] (-) TimerEvent: {}
+[23.690535] (-) TimerEvent: {}
+[23.793098] (-) TimerEvent: {}
+[23.893706] (-) TimerEvent: {}
+[23.994336] (-) TimerEvent: {}
+[24.095078] (-) TimerEvent: {}
+[24.195785] (-) TimerEvent: {}
+[24.296639] (-) TimerEvent: {}
+[24.397105] (-) TimerEvent: {}
+[24.497678] (-) TimerEvent: {}
+[24.598247] (-) TimerEvent: {}
+[24.698781] (-) TimerEvent: {}
+[24.799318] (-) TimerEvent: {}
+[24.900036] (-) TimerEvent: {}
+[25.001026] (-) TimerEvent: {}
+[25.101729] (-) TimerEvent: {}
+[25.202237] (-) TimerEvent: {}
+[25.302725] (-) TimerEvent: {}
+[25.403359] (-) TimerEvent: {}
+[25.503952] (-) TimerEvent: {}
+[25.604786] (-) TimerEvent: {}
+[25.705536] (-) TimerEvent: {}
+[25.807722] (-) TimerEvent: {}
+[25.908507] (-) TimerEvent: {}
+[26.009279] (-) TimerEvent: {}
+[26.110044] (-) TimerEvent: {}
+[26.213237] (-) TimerEvent: {}
+[26.314148] (-) TimerEvent: {}
+[26.415257] (-) TimerEvent: {}
+[26.516199] (-) TimerEvent: {}
+[26.617092] (-) TimerEvent: {}
+[26.718128] (-) TimerEvent: {}
+[26.774998] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[26.818309] (-) TimerEvent: {}
+[26.919355] (-) TimerEvent: {}
+[26.993918] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[27.019513] (-) TimerEvent: {}
+[27.072026] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/DepthImageToLaserScanROS.dir/src/DepthImageToLaserScanROS.cpp.o\x1b[0m\n'}
+[27.119673] (-) TimerEvent: {}
+[27.220391] (-) TimerEvent: {}
+[27.321046] (-) TimerEvent: {}
+[27.421607] (-) TimerEvent: {}
+[27.522307] (-) TimerEvent: {}
+[27.623155] (-) TimerEvent: {}
+[27.723924] (-) TimerEvent: {}
+[27.824702] (-) TimerEvent: {}
+[27.925259] (-) TimerEvent: {}
+[28.025980] (-) TimerEvent: {}
+[28.126697] (-) TimerEvent: {}
+[28.227426] (-) TimerEvent: {}
+[28.328066] (-) TimerEvent: {}
+[28.428705] (-) TimerEvent: {}
+[28.529637] (-) TimerEvent: {}
+[28.630414] (-) TimerEvent: {}
+[28.731129] (-) TimerEvent: {}
+[28.833465] (-) TimerEvent: {}
+[28.934098] (-) TimerEvent: {}
+[29.034642] (-) TimerEvent: {}
+[29.135365] (-) TimerEvent: {}
+[29.236080] (-) TimerEvent: {}
+[29.336844] (-) TimerEvent: {}
+[29.437591] (-) TimerEvent: {}
+[29.538330] (-) TimerEvent: {}
+[29.639054] (-) TimerEvent: {}
+[29.739754] (-) TimerEvent: {}
+[29.840485] (-) TimerEvent: {}
+[29.941084] (-) TimerEvent: {}
+[30.041667] (-) TimerEvent: {}
+[30.142752] (-) TimerEvent: {}
+[30.243260] (-) TimerEvent: {}
+[30.343600] (-) TimerEvent: {}
+[30.444001] (-) TimerEvent: {}
+[30.544425] (-) TimerEvent: {}
+[30.644865] (-) TimerEvent: {}
+[30.746401] (-) TimerEvent: {}
+[30.846909] (-) TimerEvent: {}
+[30.947880] (-) TimerEvent: {}
+[31.050630] (-) TimerEvent: {}
+[31.151909] (-) TimerEvent: {}
+[31.252608] (-) TimerEvent: {}
+[31.353367] (-) TimerEvent: {}
+[31.454023] (-) TimerEvent: {}
+[31.554552] (-) TimerEvent: {}
+[31.655310] (-) TimerEvent: {}
+[31.755924] (-) TimerEvent: {}
+[31.856528] (-) TimerEvent: {}
+[31.957110] (-) TimerEvent: {}
+[32.067425] (-) TimerEvent: {}
+[32.168434] (-) TimerEvent: {}
+[32.269329] (-) TimerEvent: {}
+[32.369974] (-) TimerEvent: {}
+[32.470784] (-) TimerEvent: {}
+[32.572064] (-) TimerEvent: {}
+[32.673112] (-) TimerEvent: {}
+[32.774128] (-) TimerEvent: {}
+[32.875037] (-) TimerEvent: {}
+[32.975908] (-) TimerEvent: {}
+[33.076785] (-) TimerEvent: {}
+[33.177620] (-) TimerEvent: {}
+[33.278681] (-) TimerEvent: {}
+[33.380071] (-) TimerEvent: {}
+[33.486642] (-) TimerEvent: {}
+[33.587392] (-) TimerEvent: {}
+[33.688336] (-) TimerEvent: {}
+[33.789078] (-) TimerEvent: {}
+[33.891569] (-) TimerEvent: {}
+[33.992641] (-) TimerEvent: {}
+[34.093308] (-) TimerEvent: {}
+[34.198736] (-) TimerEvent: {}
+[34.301721] (-) TimerEvent: {}
+[34.402392] (-) TimerEvent: {}
+[34.503097] (-) TimerEvent: {}
+[34.603704] (-) TimerEvent: {}
+[34.704423] (-) TimerEvent: {}
+[34.805059] (-) TimerEvent: {}
+[34.905784] (-) TimerEvent: {}
+[35.006360] (-) TimerEvent: {}
+[35.107564] (-) TimerEvent: {}
+[35.208518] (-) TimerEvent: {}
+[35.309073] (-) TimerEvent: {}
+[35.409608] (-) TimerEvent: {}
+[35.510104] (-) TimerEvent: {}
+[35.610784] (-) TimerEvent: {}
+[35.711688] (-) TimerEvent: {}
+[35.812563] (-) TimerEvent: {}
+[35.917142] (-) TimerEvent: {}
+[36.018987] (-) TimerEvent: {}
+[36.119620] (-) TimerEvent: {}
+[36.220265] (-) TimerEvent: {}
+[36.320993] (-) TimerEvent: {}
+[36.430269] (-) TimerEvent: {}
+[36.531355] (-) TimerEvent: {}
+[36.632561] (-) TimerEvent: {}
+[36.740900] (-) TimerEvent: {}
+[36.842196] (-) TimerEvent: {}
+[36.950664] (-) TimerEvent: {}
+[37.051859] (-) TimerEvent: {}
+[37.154535] (-) TimerEvent: {}
+[37.263092] (-) TimerEvent: {}
+[37.364142] (-) TimerEvent: {}
+[37.466653] (-) TimerEvent: {}
+[37.567715] (-) TimerEvent: {}
+[37.668632] (-) TimerEvent: {}
+[37.769496] (-) TimerEvent: {}
+[37.870319] (-) TimerEvent: {}
+[37.971319] (-) TimerEvent: {}
+[38.072204] (-) TimerEvent: {}
+[38.173070] (-) TimerEvent: {}
+[38.282619] (-) TimerEvent: {}
+[38.383397] (-) TimerEvent: {}
+[38.492030] (-) TimerEvent: {}
+[38.592746] (-) TimerEvent: {}
+[38.693460] (-) TimerEvent: {}
+[38.794286] (-) TimerEvent: {}
+[38.895136] (-) TimerEvent: {}
+[38.995999] (-) TimerEvent: {}
+[39.096533] (-) TimerEvent: {}
+[39.197086] (-) TimerEvent: {}
+[39.297878] (-) TimerEvent: {}
+[39.398759] (-) TimerEvent: {}
+[39.499751] (-) TimerEvent: {}
+[39.600808] (-) TimerEvent: {}
+[39.701927] (-) TimerEvent: {}
+[39.802948] (-) TimerEvent: {}
+[39.904130] (-) TimerEvent: {}
+[40.005104] (-) TimerEvent: {}
+[40.107254] (-) TimerEvent: {}
+[40.207886] (-) TimerEvent: {}
+[40.308767] (-) TimerEvent: {}
+[40.409537] (-) TimerEvent: {}
+[40.510474] (-) TimerEvent: {}
+[40.611430] (-) TimerEvent: {}
+[40.712311] (-) TimerEvent: {}
+[40.813314] (-) TimerEvent: {}
+[40.914193] (-) TimerEvent: {}
+[41.015109] (-) TimerEvent: {}
+[41.115967] (-) TimerEvent: {}
+[41.216882] (-) TimerEvent: {}
+[41.317762] (-) TimerEvent: {}
+[41.418672] (-) TimerEvent: {}
+[41.519556] (-) TimerEvent: {}
+[41.620658] (-) TimerEvent: {}
+[41.721601] (-) TimerEvent: {}
+[41.822764] (-) TimerEvent: {}
+[41.923780] (-) TimerEvent: {}
+[42.024763] (-) TimerEvent: {}
+[42.125760] (-) TimerEvent: {}
+[42.230672] (-) TimerEvent: {}
+[42.331175] (-) TimerEvent: {}
+[42.431612] (-) TimerEvent: {}
+[42.532198] (-) TimerEvent: {}
+[42.633380] (-) TimerEvent: {}
+[42.734088] (-) TimerEvent: {}
+[42.835149] (-) TimerEvent: {}
+[42.936687] (-) TimerEvent: {}
+[43.037735] (-) TimerEvent: {}
+[43.138719] (-) TimerEvent: {}
+[43.239701] (-) TimerEvent: {}
+[43.340552] (-) TimerEvent: {}
+[43.441352] (-) TimerEvent: {}
+[43.542347] (-) TimerEvent: {}
+[43.643291] (-) TimerEvent: {}
+[43.744114] (-) TimerEvent: {}
+[43.844878] (-) TimerEvent: {}
+[43.945935] (-) TimerEvent: {}
+[44.048390] (-) TimerEvent: {}
+[44.148952] (-) TimerEvent: {}
+[44.249781] (-) TimerEvent: {}
+[44.350835] (-) TimerEvent: {}
+[44.452064] (-) TimerEvent: {}
+[44.553214] (-) TimerEvent: {}
+[44.654399] (-) TimerEvent: {}
+[44.755629] (-) TimerEvent: {}
+[44.856720] (-) TimerEvent: {}
+[44.957726] (-) TimerEvent: {}
+[45.058674] (-) TimerEvent: {}
+[45.162682] (-) TimerEvent: {}
+[45.270643] (-) TimerEvent: {}
+[45.371352] (-) TimerEvent: {}
+[45.472087] (-) TimerEvent: {}
+[45.572990] (-) TimerEvent: {}
+[45.674582] (-) TimerEvent: {}
+[45.775707] (-) TimerEvent: {}
+[45.876802] (-) TimerEvent: {}
+[45.977652] (-) TimerEvent: {}
+[46.078562] (-) TimerEvent: {}
+[46.179332] (-) TimerEvent: {}
+[46.280303] (-) TimerEvent: {}
+[46.381133] (-) TimerEvent: {}
+[46.481979] (-) TimerEvent: {}
+[46.582599] (-) TimerEvent: {}
+[46.683585] (-) TimerEvent: {}
+[46.784603] (-) TimerEvent: {}
+[46.885237] (-) TimerEvent: {}
+[46.986263] (-) TimerEvent: {}
+[47.087195] (-) TimerEvent: {}
+[47.188200] (-) TimerEvent: {}
+[47.288993] (-) TimerEvent: {}
+[47.389998] (-) TimerEvent: {}
+[47.490814] (-) TimerEvent: {}
+[47.591700] (-) TimerEvent: {}
+[47.692334] (-) TimerEvent: {}
+[47.793019] (-) TimerEvent: {}
+[47.893732] (-) TimerEvent: {}
+[47.994675] (-) TimerEvent: {}
+[48.095383] (-) TimerEvent: {}
+[48.196235] (-) TimerEvent: {}
+[48.299942] (-) TimerEvent: {}
+[48.447948] (-) TimerEvent: {}
+[48.563674] (-) TimerEvent: {}
+[48.665437] (-) TimerEvent: {}
+[48.766173] (-) TimerEvent: {}
+[48.867321] (-) TimerEvent: {}
+[48.972859] (-) TimerEvent: {}
+[49.074231] (-) TimerEvent: {}
+[49.175057] (-) TimerEvent: {}
+[49.275911] (-) TimerEvent: {}
+[49.376746] (-) TimerEvent: {}
+[49.477460] (-) TimerEvent: {}
+[49.587169] (-) TimerEvent: {}
+[49.687898] (-) TimerEvent: {}
+[49.788700] (-) TimerEvent: {}
+[49.889416] (-) TimerEvent: {}
+[49.990201] (-) TimerEvent: {}
+[50.091129] (-) TimerEvent: {}
+[50.191983] (-) TimerEvent: {}
+[50.298657] (-) TimerEvent: {}
+[50.399510] (-) TimerEvent: {}
+[50.500132] (-) TimerEvent: {}
+[50.602673] (-) TimerEvent: {}
+[50.703297] (-) TimerEvent: {}
+[50.806420] (-) TimerEvent: {}
+[50.911506] (-) TimerEvent: {}
+[51.018012] (-) TimerEvent: {}
+[51.118821] (-) TimerEvent: {}
+[51.232518] (-) TimerEvent: {}
+[51.338617] (-) TimerEvent: {}
+[51.439363] (-) TimerEvent: {}
+[51.539951] (-) TimerEvent: {}
+[51.640909] (-) TimerEvent: {}
+[51.741668] (-) TimerEvent: {}
+[51.842389] (-) TimerEvent: {}
+[51.943241] (-) TimerEvent: {}
+[52.044072] (-) TimerEvent: {}
+[52.144701] (-) TimerEvent: {}
+[52.245876] (-) TimerEvent: {}
+[52.346709] (-) TimerEvent: {}
+[52.447393] (-) TimerEvent: {}
+[52.557199] (-) TimerEvent: {}
+[52.657858] (-) TimerEvent: {}
+[52.758300] (-) TimerEvent: {}
+[52.858913] (-) TimerEvent: {}
+[52.959780] (-) TimerEvent: {}
+[53.061112] (-) TimerEvent: {}
+[53.161920] (-) TimerEvent: {}
+[53.262626] (-) TimerEvent: {}
+[53.363475] (-) TimerEvent: {}
+[53.464355] (-) TimerEvent: {}
+[53.565187] (-) TimerEvent: {}
+[53.666122] (-) TimerEvent: {}
+[53.766810] (-) TimerEvent: {}
+[53.867520] (-) TimerEvent: {}
+[53.968150] (-) TimerEvent: {}
+[54.068812] (-) TimerEvent: {}
+[54.169446] (-) TimerEvent: {}
+[54.270339] (-) TimerEvent: {}
+[54.370994] (-) TimerEvent: {}
+[54.471624] (-) TimerEvent: {}
+[54.572273] (-) TimerEvent: {}
+[54.673097] (-) TimerEvent: {}
+[54.773628] (-) TimerEvent: {}
+[54.874166] (-) TimerEvent: {}
+[54.974925] (-) TimerEvent: {}
+[55.075632] (-) TimerEvent: {}
+[55.176515] (-) TimerEvent: {}
+[55.277049] (-) TimerEvent: {}
+[55.377662] (-) TimerEvent: {}
+[55.478267] (-) TimerEvent: {}
+[55.578769] (-) TimerEvent: {}
+[55.679593] (-) TimerEvent: {}
+[55.780259] (-) TimerEvent: {}
+[55.880808] (-) TimerEvent: {}
+[55.998609] (-) TimerEvent: {}
+[56.102630] (-) TimerEvent: {}
+[56.203155] (-) TimerEvent: {}
+[56.306608] (-) TimerEvent: {}
+[56.406972] (-) TimerEvent: {}
+[56.509082] (-) TimerEvent: {}
+[56.609768] (-) TimerEvent: {}
+[56.710669] (-) TimerEvent: {}
+[56.818747] (-) TimerEvent: {}
+[56.919343] (-) TimerEvent: {}
+[57.019788] (-) TimerEvent: {}
+[57.120438] (-) TimerEvent: {}
+[57.221147] (-) TimerEvent: {}
+[57.321718] (-) TimerEvent: {}
+[57.438609] (-) TimerEvent: {}
+[57.544169] (-) TimerEvent: {}
+[57.645329] (-) TimerEvent: {}
+[57.746671] (-) TimerEvent: {}
+[57.847360] (-) TimerEvent: {}
+[57.962807] (-) TimerEvent: {}
+[58.063434] (-) TimerEvent: {}
+[58.163908] (-) TimerEvent: {}
+[58.264454] (-) TimerEvent: {}
+[58.365033] (-) TimerEvent: {}
+[58.465651] (-) TimerEvent: {}
+[58.566139] (-) TimerEvent: {}
+[58.666625] (-) TimerEvent: {}
+[58.770022] (-) TimerEvent: {}
+[58.870454] (-) TimerEvent: {}
+[58.970930] (-) TimerEvent: {}
+[59.071402] (-) TimerEvent: {}
+[59.172049] (-) TimerEvent: {}
+[59.272711] (-) TimerEvent: {}
+[59.373496] (-) TimerEvent: {}
+[59.474473] (-) TimerEvent: {}
+[59.575425] (-) TimerEvent: {}
+[59.676438] (-) TimerEvent: {}
+[59.777467] (-) TimerEvent: {}
+[59.878667] (-) TimerEvent: {}
+[59.979728] (-) TimerEvent: {}
+[60.080565] (-) TimerEvent: {}
+[60.181707] (-) TimerEvent: {}
+[60.282488] (-) TimerEvent: {}
+[60.383379] (-) TimerEvent: {}
+[60.484152] (-) TimerEvent: {}
+[60.585046] (-) TimerEvent: {}
+[60.685755] (-) TimerEvent: {}
+[60.786324] (-) TimerEvent: {}
+[60.886828] (-) TimerEvent: {}
+[60.987453] (-) TimerEvent: {}
+[61.088463] (-) TimerEvent: {}
+[61.189046] (-) TimerEvent: {}
+[61.289635] (-) TimerEvent: {}
+[61.390287] (-) TimerEvent: {}
+[61.491185] (-) TimerEvent: {}
+[61.591908] (-) TimerEvent: {}
+[61.692657] (-) TimerEvent: {}
+[61.793032] (-) TimerEvent: {}
+[61.893617] (-) TimerEvent: {}
+[61.998882] (-) TimerEvent: {}
+[62.099457] (-) TimerEvent: {}
+[62.200093] (-) TimerEvent: {}
+[62.300600] (-) TimerEvent: {}
+[62.401188] (-) TimerEvent: {}
+[62.504597] (-) TimerEvent: {}
+[62.607454] (-) TimerEvent: {}
+[62.707984] (-) TimerEvent: {}
+[62.808548] (-) TimerEvent: {}
+[62.921786] (-) TimerEvent: {}
+[63.022343] (-) TimerEvent: {}
+[63.123253] (-) TimerEvent: {}
+[63.223658] (-) TimerEvent: {}
+[63.331888] (-) TimerEvent: {}
+[63.432846] (-) TimerEvent: {}
+[63.533928] (-) TimerEvent: {}
+[63.634750] (-) TimerEvent: {}
+[63.735339] (-) TimerEvent: {}
+[63.836157] (-) TimerEvent: {}
+[63.936782] (-) TimerEvent: {}
+[64.037379] (-) TimerEvent: {}
+[64.142685] (-) TimerEvent: {}
+[64.243833] (-) TimerEvent: {}
+[64.344779] (-) TimerEvent: {}
+[64.445756] (-) TimerEvent: {}
+[64.546832] (-) TimerEvent: {}
+[64.651648] (-) TimerEvent: {}
+[64.763284] (-) TimerEvent: {}
+[64.874651] (-) TimerEvent: {}
+[64.975337] (-) TimerEvent: {}
+[65.075942] (-) TimerEvent: {}
+[65.176911] (-) TimerEvent: {}
+[65.277657] (-) TimerEvent: {}
+[65.378155] (-) TimerEvent: {}
+[65.478731] (-) TimerEvent: {}
+[65.581350] (-) TimerEvent: {}
+[65.682087] (-) TimerEvent: {}
+[65.784393] (-) TimerEvent: {}
+[65.885156] (-) TimerEvent: {}
+[65.986011] (-) TimerEvent: {}
+[66.087139] (-) TimerEvent: {}
+[66.188134] (-) TimerEvent: {}
+[66.288911] (-) TimerEvent: {}
+[66.389570] (-) TimerEvent: {}
+[66.500629] (-) TimerEvent: {}
+[66.601293] (-) TimerEvent: {}
+[66.701880] (-) TimerEvent: {}
+[66.802533] (-) TimerEvent: {}
+[66.903255] (-) TimerEvent: {}
+[67.004043] (-) TimerEvent: {}
+[67.109872] (-) TimerEvent: {}
+[67.237136] (-) TimerEvent: {}
+[67.339764] (-) TimerEvent: {}
+[67.440560] (-) TimerEvent: {}
+[67.541335] (-) TimerEvent: {}
+[67.642167] (-) TimerEvent: {}
+[67.742968] (-) TimerEvent: {}
+[67.843773] (-) TimerEvent: {}
+[67.944919] (-) TimerEvent: {}
+[68.045575] (-) TimerEvent: {}
+[68.146456] (-) TimerEvent: {}
+[68.247658] (-) TimerEvent: {}
+[68.348677] (-) TimerEvent: {}
+[68.449924] (-) TimerEvent: {}
+[68.551053] (-) TimerEvent: {}
+[68.652377] (-) TimerEvent: {}
+[68.753551] (-) TimerEvent: {}
+[68.854488] (-) TimerEvent: {}
+[68.955161] (-) TimerEvent: {}
+[69.055828] (-) TimerEvent: {}
+[69.156892] (-) TimerEvent: {}
+[69.258196] (-) TimerEvent: {}
+[69.359102] (-) TimerEvent: {}
+[69.460152] (-) TimerEvent: {}
+[69.561332] (-) TimerEvent: {}
+[69.662395] (-) TimerEvent: {}
+[69.763380] (-) TimerEvent: {}
+[69.864426] (-) TimerEvent: {}
+[69.965447] (-) TimerEvent: {}
+[70.067026] (-) TimerEvent: {}
+[70.167912] (-) TimerEvent: {}
+[70.268408] (-) TimerEvent: {}
+[70.369268] (-) TimerEvent: {}
+[70.470467] (-) TimerEvent: {}
+[70.571455] (-) TimerEvent: {}
+[70.672639] (-) TimerEvent: {}
+[70.773576] (-) TimerEvent: {}
+[70.874307] (-) TimerEvent: {}
+[70.975439] (-) TimerEvent: {}
+[71.076497] (-) TimerEvent: {}
+[71.177263] (-) TimerEvent: {}
+[71.278245] (-) TimerEvent: {}
+[71.379075] (-) TimerEvent: {}
+[71.480075] (-) TimerEvent: {}
+[71.580904] (-) TimerEvent: {}
+[71.681901] (-) TimerEvent: {}
+[71.782892] (-) TimerEvent: {}
+[71.883891] (-) TimerEvent: {}
+[71.985026] (-) TimerEvent: {}
+[72.086013] (-) TimerEvent: {}
+[72.186984] (-) TimerEvent: {}
+[72.287909] (-) TimerEvent: {}
+[72.388609] (-) TimerEvent: {}
+[72.489460] (-) TimerEvent: {}
+[72.590462] (-) TimerEvent: {}
+[72.691457] (-) TimerEvent: {}
+[72.792517] (-) TimerEvent: {}
+[72.893689] (-) TimerEvent: {}
+[73.002812] (-) TimerEvent: {}
+[73.104487] (-) TimerEvent: {}
+[73.205246] (-) TimerEvent: {}
+[73.311196] (-) TimerEvent: {}
+[73.412939] (-) TimerEvent: {}
+[73.513621] (-) TimerEvent: {}
+[73.614820] (-) TimerEvent: {}
+[73.716035] (-) TimerEvent: {}
+[73.817052] (-) TimerEvent: {}
+[73.917896] (-) TimerEvent: {}
+[74.018604] (-) TimerEvent: {}
+[74.119414] (-) TimerEvent: {}
+[74.220034] (-) TimerEvent: {}
+[74.329012] (-) TimerEvent: {}
+[74.441832] (-) TimerEvent: {}
+[74.542981] (-) TimerEvent: {}
+[74.646612] (-) TimerEvent: {}
+[74.751702] (-) TimerEvent: {}
+[74.852567] (-) TimerEvent: {}
+[74.953422] (-) TimerEvent: {}
+[75.054162] (-) TimerEvent: {}
+[75.154951] (-) TimerEvent: {}
+[75.255653] (-) TimerEvent: {}
+[75.356556] (-) TimerEvent: {}
+[75.457726] (-) TimerEvent: {}
+[75.558454] (-) TimerEvent: {}
+[75.659424] (-) TimerEvent: {}
+[75.760369] (-) TimerEvent: {}
+[75.861246] (-) TimerEvent: {}
+[75.962115] (-) TimerEvent: {}
+[76.062851] (-) TimerEvent: {}
+[76.163764] (-) TimerEvent: {}
+[76.264788] (-) TimerEvent: {}
+[76.365847] (-) TimerEvent: {}
+[76.466829] (-) TimerEvent: {}
+[76.567847] (-) TimerEvent: {}
+[76.668605] (-) TimerEvent: {}
+[76.769674] (-) TimerEvent: {}
+[76.870803] (-) TimerEvent: {}
+[76.972087] (-) TimerEvent: {}
+[77.072993] (-) TimerEvent: {}
+[77.173962] (-) TimerEvent: {}
+[77.274981] (-) TimerEvent: {}
+[77.376417] (-) TimerEvent: {}
+[77.477537] (-) TimerEvent: {}
+[77.578656] (-) TimerEvent: {}
+[77.679681] (-) TimerEvent: {}
+[77.780726] (-) TimerEvent: {}
+[77.881293] (-) TimerEvent: {}
+[77.982597] (-) TimerEvent: {}
+[78.083726] (-) TimerEvent: {}
+[78.184340] (-) TimerEvent: {}
+[78.290814] (-) TimerEvent: {}
+[78.407818] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libDepthImageToLaserScanROS.so\x1b[0m\n'}
+[78.479470] (-) TimerEvent: {}
+[78.580168] (-) TimerEvent: {}
+[78.680896] (-) TimerEvent: {}
+[78.781903] (-) TimerEvent: {}
+[78.882925] (-) TimerEvent: {}
+[78.983860] (-) TimerEvent: {}
+[79.085025] (-) TimerEvent: {}
+[79.186180] (-) TimerEvent: {}
+[79.287350] (-) TimerEvent: {}
+[79.388071] (-) TimerEvent: {}
+[79.489288] (-) TimerEvent: {}
+[79.590373] (-) TimerEvent: {}
+[79.691490] (-) TimerEvent: {}
+[79.792574] (-) TimerEvent: {}
+[79.893716] (-) TimerEvent: {}
+[79.994744] (-) TimerEvent: {}
+[80.095751] (-) TimerEvent: {}
+[80.196395] (-) TimerEvent: {}
+[80.297191] (-) TimerEvent: {}
+[80.398058] (-) TimerEvent: {}
+[80.499239] (-) TimerEvent: {}
+[80.600257] (-) TimerEvent: {}
+[80.701379] (-) TimerEvent: {}
+[80.802097] (-) TimerEvent: {}
+[80.902876] (-) TimerEvent: {}
+[81.003759] (-) TimerEvent: {}
+[81.084507] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 66%] Built target DepthImageToLaserScanROS\n'}
+[81.103911] (-) TimerEvent: {}
+[81.204914] (-) TimerEvent: {}
+[81.208037] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/depthimage_to_laserscan-test.dir/test/DepthImageToLaserScanTest.cpp.o\x1b[0m\n'}
+[81.305128] (-) TimerEvent: {}
+[81.405685] (-) TimerEvent: {}
+[81.506474] (-) TimerEvent: {}
+[81.607560] (-) TimerEvent: {}
+[81.708578] (-) TimerEvent: {}
+[81.809603] (-) TimerEvent: {}
+[81.910575] (-) TimerEvent: {}
+[82.011578] (-) TimerEvent: {}
+[82.112426] (-) TimerEvent: {}
+[82.213517] (-) TimerEvent: {}
+[82.314433] (-) TimerEvent: {}
+[82.415143] (-) TimerEvent: {}
+[82.516657] (-) TimerEvent: {}
+[82.617640] (-) TimerEvent: {}
+[82.718732] (-) TimerEvent: {}
+[82.819787] (-) TimerEvent: {}
+[82.920833] (-) TimerEvent: {}
+[83.021717] (-) TimerEvent: {}
+[83.122706] (-) TimerEvent: {}
+[83.223893] (-) TimerEvent: {}
+[83.324757] (-) TimerEvent: {}
+[83.428020] (-) TimerEvent: {}
+[83.529143] (-) TimerEvent: {}
+[83.630247] (-) TimerEvent: {}
+[83.731113] (-) TimerEvent: {}
+[83.831833] (-) TimerEvent: {}
+[83.932838] (-) TimerEvent: {}
+[84.033681] (-) TimerEvent: {}
+[84.134816] (-) TimerEvent: {}
+[84.235867] (-) TimerEvent: {}
+[84.336602] (-) TimerEvent: {}
+[84.437345] (-) TimerEvent: {}
+[84.538118] (-) TimerEvent: {}
+[84.639226] (-) TimerEvent: {}
+[84.740256] (-) TimerEvent: {}
+[84.841338] (-) TimerEvent: {}
+[84.942400] (-) TimerEvent: {}
+[85.043233] (-) TimerEvent: {}
+[85.143869] (-) TimerEvent: {}
+[85.244879] (-) TimerEvent: {}
+[85.346057] (-) TimerEvent: {}
+[85.447494] (-) TimerEvent: {}
+[85.548470] (-) TimerEvent: {}
+[85.649659] (-) TimerEvent: {}
+[85.750658] (-) TimerEvent: {}
+[85.851380] (-) TimerEvent: {}
+[85.952525] (-) TimerEvent: {}
+[86.053594] (-) TimerEvent: {}
+[86.154661] (-) TimerEvent: {}
+[86.255646] (-) TimerEvent: {}
+[86.356357] (-) TimerEvent: {}
+[86.456966] (-) TimerEvent: {}
+[86.558043] (-) TimerEvent: {}
+[86.659027] (-) TimerEvent: {}
+[86.760027] (-) TimerEvent: {}
+[86.860791] (-) TimerEvent: {}
+[86.961856] (-) TimerEvent: {}
+[87.063098] (-) TimerEvent: {}
+[87.164287] (-) TimerEvent: {}
+[87.265272] (-) TimerEvent: {}
+[87.366304] (-) TimerEvent: {}
+[87.467384] (-) TimerEvent: {}
+[87.568406] (-) TimerEvent: {}
+[87.669370] (-) TimerEvent: {}
+[87.770472] (-) TimerEvent: {}
+[87.871559] (-) TimerEvent: {}
+[87.972256] (-) TimerEvent: {}
+[88.072767] (-) TimerEvent: {}
+[88.173497] (-) TimerEvent: {}
+[88.274220] (-) TimerEvent: {}
+[88.375230] (-) TimerEvent: {}
+[88.477062] (-) TimerEvent: {}
+[88.577957] (-) TimerEvent: {}
+[88.679124] (-) TimerEvent: {}
+[88.780062] (-) TimerEvent: {}
+[88.881013] (-) TimerEvent: {}
+[88.982011] (-) TimerEvent: {}
+[89.083071] (-) TimerEvent: {}
+[89.184107] (-) TimerEvent: {}
+[89.284998] (-) TimerEvent: {}
+[89.388970] (-) TimerEvent: {}
+[89.435595] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable depthimage_to_laserscan-test\x1b[0m\n'}
+[89.489096] (-) TimerEvent: {}
+[89.589725] (-) TimerEvent: {}
+[89.691043] (-) TimerEvent: {}
+[89.793117] (-) TimerEvent: {}
+[89.894135] (-) TimerEvent: {}
+[89.995226] (-) TimerEvent: {}
+[90.068489] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 83%] Built target depthimage_to_laserscan-test\n'}
+[90.095400] (-) TimerEvent: {}
+[90.191502] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/depthimage_to_laserscan_node.dir/src/depthimage_to_laserscan.cpp.o\x1b[0m\n'}
+[90.195529] (-) TimerEvent: {}
+[90.296341] (-) TimerEvent: {}
+[90.397065] (-) TimerEvent: {}
+[90.497950] (-) TimerEvent: {}
+[90.598846] (-) TimerEvent: {}
+[90.699812] (-) TimerEvent: {}
+[90.800679] (-) TimerEvent: {}
+[90.901459] (-) TimerEvent: {}
+[91.002285] (-) TimerEvent: {}
+[91.103201] (-) TimerEvent: {}
+[91.203974] (-) TimerEvent: {}
+[91.304759] (-) TimerEvent: {}
+[91.405307] (-) TimerEvent: {}
+[91.505824] (-) TimerEvent: {}
+[91.606385] (-) TimerEvent: {}
+[91.706759] (-) TimerEvent: {}
+[91.807239] (-) TimerEvent: {}
+[91.907691] (-) TimerEvent: {}
+[92.008206] (-) TimerEvent: {}
+[92.108676] (-) TimerEvent: {}
+[92.209221] (-) TimerEvent: {}
+[92.309747] (-) TimerEvent: {}
+[92.410362] (-) TimerEvent: {}
+[92.510954] (-) TimerEvent: {}
+[92.611574] (-) TimerEvent: {}
+[92.712202] (-) TimerEvent: {}
+[92.812794] (-) TimerEvent: {}
+[92.913354] (-) TimerEvent: {}
+[93.013918] (-) TimerEvent: {}
+[93.114546] (-) TimerEvent: {}
+[93.215135] (-) TimerEvent: {}
+[93.315832] (-) TimerEvent: {}
+[93.416490] (-) TimerEvent: {}
+[93.518905] (-) TimerEvent: {}
+[93.619511] (-) TimerEvent: {}
+[93.720020] (-) TimerEvent: {}
+[93.820629] (-) TimerEvent: {}
+[93.921086] (-) TimerEvent: {}
+[94.021662] (-) TimerEvent: {}
+[94.122491] (-) TimerEvent: {}
+[94.223104] (-) TimerEvent: {}
+[94.323703] (-) TimerEvent: {}
+[94.424277] (-) TimerEvent: {}
+[94.524896] (-) TimerEvent: {}
+[94.625522] (-) TimerEvent: {}
+[94.726127] (-) TimerEvent: {}
+[94.826763] (-) TimerEvent: {}
+[94.927308] (-) TimerEvent: {}
+[95.027903] (-) TimerEvent: {}
+[95.128710] (-) TimerEvent: {}
+[95.229439] (-) TimerEvent: {}
+[95.330452] (-) TimerEvent: {}
+[95.431456] (-) TimerEvent: {}
+[95.540160] (-) TimerEvent: {}
+[95.641489] (-) TimerEvent: {}
+[95.742543] (-) TimerEvent: {}
+[95.843586] (-) TimerEvent: {}
+[95.947133] (-) TimerEvent: {}
+[96.051310] (-) TimerEvent: {}
+[96.151884] (-) TimerEvent: {}
+[96.253705] (-) TimerEvent: {}
+[96.358934] (-) TimerEvent: {}
+[96.459547] (-) TimerEvent: {}
+[96.560018] (-) TimerEvent: {}
+[96.662728] (-) TimerEvent: {}
+[96.763969] (-) TimerEvent: {}
+[96.864403] (-) TimerEvent: {}
+[96.964798] (-) TimerEvent: {}
+[97.065540] (-) TimerEvent: {}
+[97.166185] (-) TimerEvent: {}
+[97.266782] (-) TimerEvent: {}
+[97.385501] (-) TimerEvent: {}
+[97.486283] (-) TimerEvent: {}
+[97.587071] (-) TimerEvent: {}
+[97.694641] (-) TimerEvent: {}
+[97.798642] (-) TimerEvent: {}
+[97.901186] (-) TimerEvent: {}
+[98.003575] (-) TimerEvent: {}
+[98.104046] (-) TimerEvent: {}
+[98.204441] (-) TimerEvent: {}
+[98.305213] (-) TimerEvent: {}
+[98.410299] (-) TimerEvent: {}
+[98.512945] (-) TimerEvent: {}
+[98.626456] (-) TimerEvent: {}
+[98.728720] (-) TimerEvent: {}
+[98.830452] (-) TimerEvent: {}
+[98.932241] (-) TimerEvent: {}
+[99.032702] (-) TimerEvent: {}
+[99.134238] (-) TimerEvent: {}
+[99.238134] (-) TimerEvent: {}
+[99.339870] (-) TimerEvent: {}
+[99.440309] (-) TimerEvent: {}
+[99.559507] (-) TimerEvent: {}
+[99.668205] (-) TimerEvent: {}
+[99.771756] (-) TimerEvent: {}
+[99.874082] (-) TimerEvent: {}
+[99.977334] (-) TimerEvent: {}
+[100.077782] (-) TimerEvent: {}
+[100.178981] (-) TimerEvent: {}
+[100.279996] (-) TimerEvent: {}
+[100.380877] (-) TimerEvent: {}
+[100.481843] (-) TimerEvent: {}
+[100.582692] (-) TimerEvent: {}
+[100.683703] (-) TimerEvent: {}
+[100.784805] (-) TimerEvent: {}
+[100.885857] (-) TimerEvent: {}
+[100.986549] (-) TimerEvent: {}
+[101.086959] (-) TimerEvent: {}
+[101.195413] (-) TimerEvent: {}
+[101.301436] (-) TimerEvent: {}
+[101.402450] (-) TimerEvent: {}
+[101.503003] (-) TimerEvent: {}
+[101.603578] (-) TimerEvent: {}
+[101.704338] (-) TimerEvent: {}
+[101.805173] (-) TimerEvent: {}
+[101.905738] (-) TimerEvent: {}
+[102.006245] (-) TimerEvent: {}
+[102.088354] (realsense_gazebo_plugin) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o\x1b[0m\n'}
+[102.106397] (-) TimerEvent: {}
+[102.206982] (-) TimerEvent: {}
+[102.307569] (-) TimerEvent: {}
+[102.408104] (-) TimerEvent: {}
+[102.508500] (-) TimerEvent: {}
+[102.609134] (-) TimerEvent: {}
+[102.709729] (-) TimerEvent: {}
+[102.810288] (-) TimerEvent: {}
+[102.910785] (-) TimerEvent: {}
+[103.011390] (-) TimerEvent: {}
+[103.111999] (-) TimerEvent: {}
+[103.212634] (-) TimerEvent: {}
+[103.313187] (-) TimerEvent: {}
+[103.413951] (-) TimerEvent: {}
+[103.514404] (-) TimerEvent: {}
+[103.614866] (-) TimerEvent: {}
+[103.715392] (-) TimerEvent: {}
+[103.816043] (-) TimerEvent: {}
+[103.916611] (-) TimerEvent: {}
+[104.017126] (-) TimerEvent: {}
+[104.117644] (-) TimerEvent: {}
+[104.199322] (depthimage_to_laserscan) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable depthimage_to_laserscan_node\x1b[0m\n'}
+[104.217787] (-) TimerEvent: {}
+[104.318353] (-) TimerEvent: {}
+[104.419131] (-) TimerEvent: {}
+[104.519742] (-) TimerEvent: {}
+[104.620579] (-) TimerEvent: {}
+[104.721188] (-) TimerEvent: {}
+[104.822768] (-) TimerEvent: {}
+[104.923583] (-) TimerEvent: {}
+[105.024431] (-) TimerEvent: {}
+[105.125296] (-) TimerEvent: {}
+[105.184111] (depthimage_to_laserscan) StdoutLine: {'line': b'[100%] Built target depthimage_to_laserscan_node\n'}
+[105.225442] (-) TimerEvent: {}
+[105.326072] (-) TimerEvent: {}
+[105.427610] (-) TimerEvent: {}
+[105.506008] (depthimage_to_laserscan) CommandEnded: {'returncode': 0}
+[105.618929] (-) TimerEvent: {}
+[105.720164] (-) TimerEvent: {}
+[105.820872] (-) TimerEvent: {}
+[105.855636] (depthimage_to_laserscan) JobProgress: {'identifier': 'depthimage_to_laserscan', 'progress': 'install'}
+[105.882317] (depthimage_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/linh/ser_ws/build/depthimage_to_laserscan'], 'cwd': '/home/linh/ser_ws/build/depthimage_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/depthimage_to_laserscan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[105.921026] (-) TimerEvent: {}
+[105.924796] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[105.928479] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan\n'}
+[105.928934] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan\n'}
+[105.929041] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS.hpp\n'}
+[105.930126] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan.hpp\n'}
+[105.930537] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/depth_traits.hpp\n'}
+[105.930951] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch\n'}
+[105.932655] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan-launch.py\n'}
+[105.933787] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan_composed-launch.py\n'}
+[105.934774] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg\n'}
+[105.935633] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg/param.yaml\n'}
+[105.937415] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so\n'}
+[105.938471] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/linh/ser_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so" to ""\n'}
+[105.938676] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so\n'}
+[105.986564] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/linh/ser_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so" to ""\n'}
+[105.987148] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node\n'}
+[105.988368] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/linh/ser_ws/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node" to ""\n'}
+[105.988738] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan_export.h\n'}
+[105.989263] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS_export.h\n'}
+[105.994135] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.sh\n'}
+[105.996414] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.dsv\n'}
+[106.000616] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/package_run_dependencies/depthimage_to_laserscan\n'}
+[106.002073] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/parent_prefix_path/depthimage_to_laserscan\n'}
+[106.005793] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.sh\n'}
+[106.006925] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.dsv\n'}
+[106.007945] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.sh\n'}
+[106.008937] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.dsv\n'}
+[106.009936] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.bash\n'}
+[106.011384] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.sh\n'}
+[106.012764] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.zsh\n'}
+[106.013694] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.dsv\n'}
+[106.014641] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv\n'}
+[106.016438] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/packages/depthimage_to_laserscan\n'}
+[106.017724] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/rclcpp_components/depthimage_to_laserscan\n'}
+[106.020819] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport.cmake\n'}
+[106.021069] (-) TimerEvent: {}
+[106.022628] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport-noconfig.cmake\n'}
+[106.024499] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[106.026941] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[106.028703] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[106.031004] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[106.033983] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig.cmake\n'}
+[106.035613] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig-version.cmake\n'}
+[106.036882] (depthimage_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.xml\n'}
+[106.053903] (depthimage_to_laserscan) CommandEnded: {'returncode': 0}
+[106.126481] (-) TimerEvent: {}
+[106.240521] (-) TimerEvent: {}
+[106.341844] (-) TimerEvent: {}
+[106.442342] (-) TimerEvent: {}
+[106.542805] (-) TimerEvent: {}
+[106.643512] (-) TimerEvent: {}
+[106.744149] (-) TimerEvent: {}
+[106.863660] (-) TimerEvent: {}
+[106.978296] (-) TimerEvent: {}
+[107.088815] (-) TimerEvent: {}
+[107.189329] (-) TimerEvent: {}
+[107.291893] (-) TimerEvent: {}
+[107.393203] (-) TimerEvent: {}
+[107.494592] (-) TimerEvent: {}
+[107.596846] (-) TimerEvent: {}
+[107.697813] (-) TimerEvent: {}
+[107.802894] (-) TimerEvent: {}
+[107.919706] (-) TimerEvent: {}
+[108.021251] (-) TimerEvent: {}
+[108.122798] (-) TimerEvent: {}
+[108.219408] (depthimage_to_laserscan) JobEnded: {'identifier': 'depthimage_to_laserscan', 'rc': 0}
+[108.229305] (-) TimerEvent: {}
+[108.330890] (-) TimerEvent: {}
+[108.431350] (-) TimerEvent: {}
+[108.532105] (-) TimerEvent: {}
+[108.632952] (-) TimerEvent: {}
+[108.735065] (-) TimerEvent: {}
+[108.835631] (-) TimerEvent: {}
+[108.936544] (-) TimerEvent: {}
+[109.037525] (-) TimerEvent: {}
+[109.138628] (-) TimerEvent: {}
+[109.239711] (-) TimerEvent: {}
+[109.340489] (-) TimerEvent: {}
+[109.441270] (-) TimerEvent: {}
+[109.541999] (-) TimerEvent: {}
+[109.642921] (-) TimerEvent: {}
+[109.743952] (-) TimerEvent: {}
+[109.844717] (-) TimerEvent: {}
+[109.945572] (-) TimerEvent: {}
+[110.046651] (-) TimerEvent: {}
+[110.147491] (-) TimerEvent: {}
+[110.248159] (-) TimerEvent: {}
+[110.348676] (-) TimerEvent: {}
+[110.449166] (-) TimerEvent: {}
+[110.549752] (-) TimerEvent: {}
+[110.650356] (-) TimerEvent: {}
+[110.750957] (-) TimerEvent: {}
+[110.852048] (-) TimerEvent: {}
+[110.952958] (-) TimerEvent: {}
+[111.053895] (-) TimerEvent: {}
+[111.154839] (-) TimerEvent: {}
+[111.255355] (-) TimerEvent: {}
+[111.355974] (-) TimerEvent: {}
+[111.456456] (-) TimerEvent: {}
+[111.557120] (-) TimerEvent: {}
+[111.657628] (-) TimerEvent: {}
+[111.758247] (-) TimerEvent: {}
+[111.859305] (-) TimerEvent: {}
+[111.959919] (-) TimerEvent: {}
+[112.060510] (-) TimerEvent: {}
+[112.161125] (-) TimerEvent: {}
+[112.261744] (-) TimerEvent: {}
+[112.362292] (-) TimerEvent: {}
+[112.463057] (-) TimerEvent: {}
+[112.563675] (-) TimerEvent: {}
+[112.664281] (-) TimerEvent: {}
+[112.764801] (-) TimerEvent: {}
+[112.865610] (-) TimerEvent: {}
+[112.966166] (-) TimerEvent: {}
+[113.066853] (-) TimerEvent: {}
+[113.167388] (-) TimerEvent: {}
+[113.268001] (-) TimerEvent: {}
+[113.368594] (-) TimerEvent: {}
+[113.469207] (-) TimerEvent: {}
+[113.569734] (-) TimerEvent: {}
+[113.670290] (-) TimerEvent: {}
+[113.770918] (-) TimerEvent: {}
+[113.871546] (-) TimerEvent: {}
+[113.972096] (-) TimerEvent: {}
+[114.072731] (-) TimerEvent: {}
+[114.173368] (-) TimerEvent: {}
+[114.275804] (-) TimerEvent: {}
+[114.377021] (-) TimerEvent: {}
+[114.478184] (-) TimerEvent: {}
+[114.579373] (-) TimerEvent: {}
+[114.680045] (-) TimerEvent: {}
+[114.781101] (-) TimerEvent: {}
+[114.882304] (-) TimerEvent: {}
+[114.983299] (-) TimerEvent: {}
+[115.084380] (-) TimerEvent: {}
+[115.185069] (-) TimerEvent: {}
+[115.285545] (-) TimerEvent: {}
+[115.386054] (-) TimerEvent: {}
+[115.486606] (-) TimerEvent: {}
+[115.587415] (-) TimerEvent: {}
+[115.688048] (-) TimerEvent: {}
+[115.788511] (-) TimerEvent: {}
+[115.889387] (-) TimerEvent: {}
+[115.990360] (-) TimerEvent: {}
+[116.091238] (-) TimerEvent: {}
+[116.192133] (-) TimerEvent: {}
+[116.293233] (-) TimerEvent: {}
+[116.394121] (-) TimerEvent: {}
+[116.495257] (-) TimerEvent: {}
+[116.596191] (-) TimerEvent: {}
+[116.696950] (-) TimerEvent: {}
+[116.798087] (-) TimerEvent: {}
+[116.899049] (-) TimerEvent: {}
+[116.999993] (-) TimerEvent: {}
+[117.100949] (-) TimerEvent: {}
+[117.201873] (-) TimerEvent: {}
+[117.302819] (-) TimerEvent: {}
+[117.403611] (-) TimerEvent: {}
+[117.504504] (-) TimerEvent: {}
+[117.605618] (-) TimerEvent: {}
+[117.706341] (-) TimerEvent: {}
+[117.807157] (-) TimerEvent: {}
+[117.908086] (-) TimerEvent: {}
+[118.009019] (-) TimerEvent: {}
+[118.110230] (-) TimerEvent: {}
+[118.210980] (-) TimerEvent: {}
+[118.311731] (-) TimerEvent: {}
+[118.412216] (-) TimerEvent: {}
+[118.512675] (-) TimerEvent: {}
+[118.613637] (-) TimerEvent: {}
+[118.714311] (-) TimerEvent: {}
+[118.814893] (-) TimerEvent: {}
+[118.915651] (-) TimerEvent: {}
+[119.016191] (-) TimerEvent: {}
+[119.116781] (-) TimerEvent: {}
+[119.217657] (-) TimerEvent: {}
+[119.318265] (-) TimerEvent: {}
+[119.418818] (-) TimerEvent: {}
+[119.519618] (-) TimerEvent: {}
+[119.620477] (-) TimerEvent: {}
+[119.721326] (-) TimerEvent: {}
+[119.821885] (-) TimerEvent: {}
+[119.922555] (-) TimerEvent: {}
+[120.023364] (-) TimerEvent: {}
+[120.124083] (-) TimerEvent: {}
+[120.224725] (-) TimerEvent: {}
+[120.325534] (-) TimerEvent: {}
+[120.426359] (-) TimerEvent: {}
+[120.527345] (-) TimerEvent: {}
+[120.628108] (-) TimerEvent: {}
+[120.728834] (-) TimerEvent: {}
+[120.829579] (-) TimerEvent: {}
+[120.930172] (-) TimerEvent: {}
+[121.030760] (-) TimerEvent: {}
+[121.131463] (-) TimerEvent: {}
+[121.232241] (-) TimerEvent: {}
+[121.334120] (-) TimerEvent: {}
+[121.437321] (-) TimerEvent: {}
+[121.538145] (-) TimerEvent: {}
+[121.640020] (-) TimerEvent: {}
+[121.740661] (-) TimerEvent: {}
+[121.841280] (-) TimerEvent: {}
+[121.941900] (-) TimerEvent: {}
+[122.042394] (-) TimerEvent: {}
+[122.142778] (-) TimerEvent: {}
+[122.243130] (-) TimerEvent: {}
+[122.343495] (-) TimerEvent: {}
+[122.443899] (-) TimerEvent: {}
+[122.544462] (-) TimerEvent: {}
+[122.645043] (-) TimerEvent: {}
+[122.745604] (-) TimerEvent: {}
+[122.845984] (-) TimerEvent: {}
+[122.946448] (-) TimerEvent: {}
+[123.047047] (-) TimerEvent: {}
+[123.147700] (-) TimerEvent: {}
+[123.248293] (-) TimerEvent: {}
+[123.348906] (-) TimerEvent: {}
+[123.449515] (-) TimerEvent: {}
+[123.550113] (-) TimerEvent: {}
+[123.650696] (-) TimerEvent: {}
+[123.751289] (-) TimerEvent: {}
+[123.851864] (-) TimerEvent: {}
+[123.952435] (-) TimerEvent: {}
+[124.053143] (-) TimerEvent: {}
+[124.153804] (-) TimerEvent: {}
+[124.254390] (-) TimerEvent: {}
+[124.355059] (-) TimerEvent: {}
+[124.455718] (-) TimerEvent: {}
+[124.556304] (-) TimerEvent: {}
+[124.656847] (-) TimerEvent: {}
+[124.757738] (-) TimerEvent: {}
+[124.858351] (-) TimerEvent: {}
+[124.958975] (-) TimerEvent: {}
+[125.059547] (-) TimerEvent: {}
+[125.160198] (-) TimerEvent: {}
+[125.260568] (-) TimerEvent: {}
+[125.361000] (-) TimerEvent: {}
+[125.461411] (-) TimerEvent: {}
+[125.562002] (-) TimerEvent: {}
+[125.662630] (-) TimerEvent: {}
+[125.763287] (-) TimerEvent: {}
+[125.863878] (-) TimerEvent: {}
+[125.964369] (-) TimerEvent: {}
+[126.064991] (-) TimerEvent: {}
+[126.165633] (-) TimerEvent: {}
+[126.266263] (-) TimerEvent: {}
+[126.366924] (-) TimerEvent: {}
+[126.467506] (-) TimerEvent: {}
+[126.568079] (-) TimerEvent: {}
+[126.668710] (-) TimerEvent: {}
+[126.769283] (-) TimerEvent: {}
+[126.869844] (-) TimerEvent: {}
+[126.970423] (-) TimerEvent: {}
+[127.071088] (-) TimerEvent: {}
+[127.171900] (-) TimerEvent: {}
+[127.272670] (-) TimerEvent: {}
+[127.373403] (-) TimerEvent: {}
+[127.474059] (-) TimerEvent: {}
+[127.574622] (-) TimerEvent: {}
+[127.675241] (-) TimerEvent: {}
+[127.775944] (-) TimerEvent: {}
+[127.876650] (-) TimerEvent: {}
+[127.977391] (-) TimerEvent: {}
+[128.078397] (-) TimerEvent: {}
+[128.179332] (-) TimerEvent: {}
+[128.280360] (-) TimerEvent: {}
+[128.380941] (-) TimerEvent: {}
+[128.481858] (-) TimerEvent: {}
+[128.582996] (-) TimerEvent: {}
+[128.684099] (-) TimerEvent: {}
+[128.784931] (-) TimerEvent: {}
+[128.885651] (-) TimerEvent: {}
+[128.986190] (-) TimerEvent: {}
+[129.086856] (-) TimerEvent: {}
+[129.187504] (-) TimerEvent: {}
+[129.288079] (-) TimerEvent: {}
+[129.388781] (-) TimerEvent: {}
+[129.489456] (-) TimerEvent: {}
+[129.590053] (-) TimerEvent: {}
+[129.690602] (-) TimerEvent: {}
+[129.791059] (-) TimerEvent: {}
+[129.891663] (-) TimerEvent: {}
+[129.992370] (-) TimerEvent: {}
+[130.093168] (-) TimerEvent: {}
+[130.193735] (-) TimerEvent: {}
+[130.294426] (-) TimerEvent: {}
+[130.395444] (-) TimerEvent: {}
+[130.496506] (-) TimerEvent: {}
+[130.597786] (-) TimerEvent: {}
+[130.698881] (-) TimerEvent: {}
+[130.799319] (-) TimerEvent: {}
+[130.899720] (-) TimerEvent: {}
+[131.000337] (-) TimerEvent: {}
+[131.100922] (-) TimerEvent: {}
+[131.201583] (-) TimerEvent: {}
+[131.302378] (-) TimerEvent: {}
+[131.403324] (-) TimerEvent: {}
+[131.504151] (-) TimerEvent: {}
+[131.605131] (-) TimerEvent: {}
+[131.706263] (-) TimerEvent: {}
+[131.806998] (-) TimerEvent: {}
+[131.907957] (-) TimerEvent: {}
+[132.009081] (-) TimerEvent: {}
+[132.109663] (-) TimerEvent: {}
+[132.210106] (-) TimerEvent: {}
+[132.310654] (-) TimerEvent: {}
+[132.411196] (-) TimerEvent: {}
+[132.511713] (-) TimerEvent: {}
+[132.612202] (-) TimerEvent: {}
+[132.712849] (-) TimerEvent: {}
+[132.813504] (-) TimerEvent: {}
+[132.914106] (-) TimerEvent: {}
+[133.014670] (-) TimerEvent: {}
+[133.115233] (-) TimerEvent: {}
+[133.215773] (-) TimerEvent: {}
+[133.316325] (-) TimerEvent: {}
+[133.416861] (-) TimerEvent: {}
+[133.517427] (-) TimerEvent: {}
+[133.618398] (-) TimerEvent: {}
+[133.720691] (-) TimerEvent: {}
+[133.821568] (-) TimerEvent: {}
+[133.922321] (-) TimerEvent: {}
+[134.022953] (-) TimerEvent: {}
+[134.123543] (-) TimerEvent: {}
+[134.224175] (-) TimerEvent: {}
+[134.324852] (-) TimerEvent: {}
+[134.425491] (-) TimerEvent: {}
+[134.526052] (-) TimerEvent: {}
+[134.626892] (-) TimerEvent: {}
+[134.727761] (-) TimerEvent: {}
+[134.828307] (-) TimerEvent: {}
+[134.929089] (-) TimerEvent: {}
+[135.029758] (-) TimerEvent: {}
+[135.130443] (-) TimerEvent: {}
+[135.231088] (-) TimerEvent: {}
+[135.331528] (-) TimerEvent: {}
+[135.431989] (-) TimerEvent: {}
+[135.532503] (-) TimerEvent: {}
+[135.633084] (-) TimerEvent: {}
+[135.733648] (-) TimerEvent: {}
+[135.834296] (-) TimerEvent: {}
+[135.935015] (-) TimerEvent: {}
+[136.035594] (-) TimerEvent: {}
+[136.136266] (-) TimerEvent: {}
+[136.236795] (-) TimerEvent: {}
+[136.337342] (-) TimerEvent: {}
+[136.437932] (-) TimerEvent: {}
+[136.538515] (-) TimerEvent: {}
+[136.639060] (-) TimerEvent: {}
+[136.739718] (-) TimerEvent: {}
+[136.840343] (-) TimerEvent: {}
+[136.940993] (-) TimerEvent: {}
+[137.041611] (-) TimerEvent: {}
+[137.142217] (-) TimerEvent: {}
+[137.242931] (-) TimerEvent: {}
+[137.343730] (-) TimerEvent: {}
+[137.444417] (-) TimerEvent: {}
+[137.544999] (-) TimerEvent: {}
+[137.645558] (-) TimerEvent: {}
+[137.746196] (-) TimerEvent: {}
+[137.846958] (-) TimerEvent: {}
+[137.947549] (-) TimerEvent: {}
+[138.048255] (-) TimerEvent: {}
+[138.148956] (-) TimerEvent: {}
+[138.249544] (-) TimerEvent: {}
+[138.350380] (-) TimerEvent: {}
+[138.451136] (-) TimerEvent: {}
+[138.551659] (-) TimerEvent: {}
+[138.652225] (-) TimerEvent: {}
+[138.752805] (-) TimerEvent: {}
+[138.853359] (-) TimerEvent: {}
+[138.954138] (-) TimerEvent: {}
+[139.054726] (-) TimerEvent: {}
+[139.155527] (-) TimerEvent: {}
+[139.256144] (-) TimerEvent: {}
+[139.356766] (-) TimerEvent: {}
+[139.457447] (-) TimerEvent: {}
+[139.558107] (-) TimerEvent: {}
+[139.658974] (-) TimerEvent: {}
+[139.760077] (-) TimerEvent: {}
+[139.860992] (-) TimerEvent: {}
+[139.961693] (-) TimerEvent: {}
+[140.062417] (-) TimerEvent: {}
+[140.163028] (-) TimerEvent: {}
+[140.263932] (-) TimerEvent: {}
+[140.364649] (-) TimerEvent: {}
+[140.465261] (-) TimerEvent: {}
+[140.565953] (-) TimerEvent: {}
+[140.666624] (-) TimerEvent: {}
+[140.767291] (-) TimerEvent: {}
+[140.867952] (-) TimerEvent: {}
+[140.968895] (-) TimerEvent: {}
+[141.069992] (-) TimerEvent: {}
+[141.170755] (-) TimerEvent: {}
+[141.271361] (-) TimerEvent: {}
+[141.372265] (-) TimerEvent: {}
+[141.473218] (-) TimerEvent: {}
+[141.574019] (-) TimerEvent: {}
+[141.674639] (-) TimerEvent: {}
+[141.775348] (-) TimerEvent: {}
+[141.876081] (-) TimerEvent: {}
+[141.976974] (-) TimerEvent: {}
+[142.078114] (-) TimerEvent: {}
+[142.179070] (-) TimerEvent: {}
+[142.279948] (-) TimerEvent: {}
+[142.380651] (-) TimerEvent: {}
+[142.481301] (-) TimerEvent: {}
+[142.581966] (-) TimerEvent: {}
+[142.682680] (-) TimerEvent: {}
+[142.783949] (-) TimerEvent: {}
+[142.886469] (-) TimerEvent: {}
+[142.987130] (-) TimerEvent: {}
+[143.088032] (-) TimerEvent: {}
+[143.189069] (-) TimerEvent: {}
+[143.289975] (-) TimerEvent: {}
+[143.391281] (-) TimerEvent: {}
+[143.492401] (-) TimerEvent: {}
+[143.593053] (-) TimerEvent: {}
+[143.693705] (-) TimerEvent: {}
+[143.794463] (-) TimerEvent: {}
+[143.895475] (-) TimerEvent: {}
+[143.997863] (-) TimerEvent: {}
+[144.100033] (-) TimerEvent: {}
+[144.200743] (-) TimerEvent: {}
+[144.301382] (-) TimerEvent: {}
+[144.402018] (-) TimerEvent: {}
+[144.502799] (-) TimerEvent: {}
+[144.603439] (-) TimerEvent: {}
+[144.704088] (-) TimerEvent: {}
+[144.804764] (-) TimerEvent: {}
+[144.905475] (-) TimerEvent: {}
+[145.006217] (-) TimerEvent: {}
+[145.106991] (-) TimerEvent: {}
+[145.207751] (-) TimerEvent: {}
+[145.308658] (-) TimerEvent: {}
+[145.409078] (-) TimerEvent: {}
+[145.509596] (-) TimerEvent: {}
+[145.610250] (-) TimerEvent: {}
+[145.710849] (-) TimerEvent: {}
+[145.811449] (-) TimerEvent: {}
+[145.912035] (-) TimerEvent: {}
+[146.012601] (-) TimerEvent: {}
+[146.113217] (-) TimerEvent: {}
+[146.213774] (-) TimerEvent: {}
+[146.314261] (-) TimerEvent: {}
+[146.414845] (-) TimerEvent: {}
+[146.515489] (-) TimerEvent: {}
+[146.616000] (-) TimerEvent: {}
+[146.716483] (-) TimerEvent: {}
+[146.817019] (-) TimerEvent: {}
+[146.917680] (-) TimerEvent: {}
+[147.018384] (-) TimerEvent: {}
+[147.119116] (-) TimerEvent: {}
+[147.219735] (-) TimerEvent: {}
+[147.320381] (-) TimerEvent: {}
+[147.421102] (-) TimerEvent: {}
+[147.521623] (-) TimerEvent: {}
+[147.622214] (-) TimerEvent: {}
+[147.722892] (-) TimerEvent: {}
+[147.823515] (-) TimerEvent: {}
+[147.924105] (-) TimerEvent: {}
+[148.024997] (-) TimerEvent: {}
+[148.125459] (-) TimerEvent: {}
+[148.225999] (-) TimerEvent: {}
+[148.326621] (-) TimerEvent: {}
+[148.427154] (-) TimerEvent: {}
+[148.527615] (-) TimerEvent: {}
+[148.628060] (-) TimerEvent: {}
+[148.728664] (-) TimerEvent: {}
+[148.829208] (-) TimerEvent: {}
+[148.929864] (-) TimerEvent: {}
+[149.030442] (-) TimerEvent: {}
+[149.131188] (-) TimerEvent: {}
+[149.231907] (-) TimerEvent: {}
+[149.332547] (-) TimerEvent: {}
+[149.433449] (-) TimerEvent: {}
+[149.534280] (-) TimerEvent: {}
+[149.634971] (-) TimerEvent: {}
+[149.735581] (-) TimerEvent: {}
+[149.836309] (-) TimerEvent: {}
+[149.936955] (-) TimerEvent: {}
+[150.037547] (-) TimerEvent: {}
+[150.138017] (-) TimerEvent: {}
+[150.238763] (-) TimerEvent: {}
+[150.339376] (-) TimerEvent: {}
+[150.440014] (-) TimerEvent: {}
+[150.540720] (-) TimerEvent: {}
+[150.641575] (-) TimerEvent: {}
+[150.742173] (-) TimerEvent: {}
+[150.842853] (-) TimerEvent: {}
+[150.943525] (-) TimerEvent: {}
+[151.043953] (-) TimerEvent: {}
+[151.144345] (-) TimerEvent: {}
+[151.245010] (-) TimerEvent: {}
+[151.345804] (-) TimerEvent: {}
+[151.451743] (-) TimerEvent: {}
+[151.554073] (-) TimerEvent: {}
+[151.661872] (-) TimerEvent: {}
+[151.764159] (-) TimerEvent: {}
+[151.869717] (-) TimerEvent: {}
+[151.970592] (-) TimerEvent: {}
+[152.071837] (-) TimerEvent: {}
+[152.172461] (-) TimerEvent: {}
+[152.273180] (-) TimerEvent: {}
+[152.373789] (-) TimerEvent: {}
+[152.474502] (-) TimerEvent: {}
+[152.575300] (-) TimerEvent: {}
+[152.676001] (-) TimerEvent: {}
+[152.776638] (-) TimerEvent: {}
+[152.877220] (-) TimerEvent: {}
+[152.977813] (-) TimerEvent: {}
+[153.078459] (-) TimerEvent: {}
+[153.179164] (-) TimerEvent: {}
+[153.279961] (-) TimerEvent: {}
+[153.380669] (-) TimerEvent: {}
+[153.481407] (-) TimerEvent: {}
+[153.582130] (-) TimerEvent: {}
+[153.682782] (-) TimerEvent: {}
+[153.783503] (-) TimerEvent: {}
+[153.884379] (-) TimerEvent: {}
+[153.985382] (-) TimerEvent: {}
+[154.085982] (-) TimerEvent: {}
+[154.186673] (-) TimerEvent: {}
+[154.287282] (-) TimerEvent: {}
+[154.387936] (-) TimerEvent: {}
+[154.488550] (-) TimerEvent: {}
+[154.589128] (-) TimerEvent: {}
+[154.689687] (-) TimerEvent: {}
+[154.790442] (-) TimerEvent: {}
+[154.891311] (-) TimerEvent: {}
+[154.992164] (-) TimerEvent: {}
+[155.093448] (-) TimerEvent: {}
+[155.194571] (-) TimerEvent: {}
+[155.295082] (-) TimerEvent: {}
+[155.395630] (-) TimerEvent: {}
+[155.496143] (-) TimerEvent: {}
+[155.596612] (-) TimerEvent: {}
+[155.697031] (-) TimerEvent: {}
+[155.797617] (-) TimerEvent: {}
+[155.898250] (-) TimerEvent: {}
+[155.998840] (-) TimerEvent: {}
+[156.099316] (-) TimerEvent: {}
+[156.199782] (-) TimerEvent: {}
+[156.300238] (-) TimerEvent: {}
+[156.400718] (-) TimerEvent: {}
+[156.501051] (-) TimerEvent: {}
+[156.601436] (-) TimerEvent: {}
+[156.701881] (-) TimerEvent: {}
+[156.802395] (-) TimerEvent: {}
+[156.903841] (-) TimerEvent: {}
+[157.004696] (-) TimerEvent: {}
+[157.105419] (-) TimerEvent: {}
+[157.205900] (-) TimerEvent: {}
+[157.306465] (-) TimerEvent: {}
+[157.407079] (-) TimerEvent: {}
+[157.507530] (-) TimerEvent: {}
+[157.608002] (-) TimerEvent: {}
+[157.708531] (-) TimerEvent: {}
+[157.808992] (-) TimerEvent: {}
+[157.909546] (-) TimerEvent: {}
+[158.013064] (-) TimerEvent: {}
+[158.119698] (-) TimerEvent: {}
+[158.220082] (-) TimerEvent: {}
+[158.320478] (-) TimerEvent: {}
+[158.421012] (-) TimerEvent: {}
+[158.521499] (-) TimerEvent: {}
+[158.622121] (-) TimerEvent: {}
+[158.722742] (-) TimerEvent: {}
+[158.823217] (-) TimerEvent: {}
+[158.923819] (-) TimerEvent: {}
+[159.024482] (-) TimerEvent: {}
+[159.124860] (-) TimerEvent: {}
+[159.225496] (-) TimerEvent: {}
+[159.326205] (-) TimerEvent: {}
+[159.426699] (-) TimerEvent: {}
+[159.527144] (-) TimerEvent: {}
+[159.627584] (-) TimerEvent: {}
+[159.728029] (-) TimerEvent: {}
+[159.828454] (-) TimerEvent: {}
+[159.929012] (-) TimerEvent: {}
+[160.029621] (-) TimerEvent: {}
+[160.130222] (-) TimerEvent: {}
+[160.230790] (-) TimerEvent: {}
+[160.331297] (-) TimerEvent: {}
+[160.431907] (-) TimerEvent: {}
+[160.532568] (-) TimerEvent: {}
+[160.633147] (-) TimerEvent: {}
+[160.733564] (-) TimerEvent: {}
+[160.834149] (-) TimerEvent: {}
+[160.935113] (-) TimerEvent: {}
+[161.035724] (-) TimerEvent: {}
+[161.136304] (-) TimerEvent: {}
+[161.236931] (-) TimerEvent: {}
+[161.337522] (-) TimerEvent: {}
+[161.438108] (-) TimerEvent: {}
+[161.538591] (-) TimerEvent: {}
+[161.639191] (-) TimerEvent: {}
+[161.739855] (-) TimerEvent: {}
+[161.840418] (-) TimerEvent: {}
+[161.940902] (-) TimerEvent: {}
+[162.041447] (-) TimerEvent: {}
+[162.142016] (-) TimerEvent: {}
+[162.242608] (-) TimerEvent: {}
+[162.343201] (-) TimerEvent: {}
+[162.443781] (-) TimerEvent: {}
+[162.544396] (-) TimerEvent: {}
+[162.644934] (-) TimerEvent: {}
+[162.745512] (-) TimerEvent: {}
+[162.845933] (-) TimerEvent: {}
+[162.946569] (-) TimerEvent: {}
+[163.047101] (-) TimerEvent: {}
+[163.147615] (-) TimerEvent: {}
+[163.248172] (-) TimerEvent: {}
+[163.348804] (-) TimerEvent: {}
+[163.449291] (-) TimerEvent: {}
+[163.549806] (-) TimerEvent: {}
+[163.650361] (-) TimerEvent: {}
+[163.751009] (-) TimerEvent: {}
+[163.851568] (-) TimerEvent: {}
+[163.952135] (-) TimerEvent: {}
+[164.052792] (-) TimerEvent: {}
+[164.153415] (-) TimerEvent: {}
+[164.254035] (-) TimerEvent: {}
+[164.354682] (-) TimerEvent: {}
+[164.455228] (-) TimerEvent: {}
+[164.555682] (-) TimerEvent: {}
+[164.656257] (-) TimerEvent: {}
+[164.756887] (-) TimerEvent: {}
+[164.857469] (-) TimerEvent: {}
+[164.958150] (-) TimerEvent: {}
+[165.058788] (-) TimerEvent: {}
+[165.159343] (-) TimerEvent: {}
+[165.259924] (-) TimerEvent: {}
+[165.360539] (-) TimerEvent: {}
+[165.461177] (-) TimerEvent: {}
+[165.562027] (-) TimerEvent: {}
+[165.662901] (-) TimerEvent: {}
+[165.763400] (-) TimerEvent: {}
+[165.864095] (-) TimerEvent: {}
+[165.964616] (-) TimerEvent: {}
+[166.065172] (-) TimerEvent: {}
+[166.165770] (-) TimerEvent: {}
+[166.266601] (-) TimerEvent: {}
+[166.381165] (-) TimerEvent: {}
+[166.483739] (-) TimerEvent: {}
+[166.585409] (-) TimerEvent: {}
+[166.686742] (-) TimerEvent: {}
+[166.791643] (-) TimerEvent: {}
+[166.894985] (-) TimerEvent: {}
+[166.996267] (-) TimerEvent: {}
+[167.119424] (-) TimerEvent: {}
+[167.219965] (-) TimerEvent: {}
+[167.320610] (-) TimerEvent: {}
+[167.421087] (-) TimerEvent: {}
+[167.521669] (-) TimerEvent: {}
+[167.622358] (-) TimerEvent: {}
+[167.732991] (-) TimerEvent: {}
+[167.843957] (-) TimerEvent: {}
+[167.945043] (-) TimerEvent: {}
+[168.045737] (-) TimerEvent: {}
+[168.146485] (-) TimerEvent: {}
+[168.247248] (-) TimerEvent: {}
+[168.348042] (-) TimerEvent: {}
+[168.448831] (-) TimerEvent: {}
+[168.549632] (-) TimerEvent: {}
+[168.650322] (-) TimerEvent: {}
+[168.750775] (-) TimerEvent: {}
+[168.851344] (-) TimerEvent: {}
+[168.951850] (-) TimerEvent: {}
+[169.055425] (-) TimerEvent: {}
+[169.155857] (-) TimerEvent: {}
+[169.256674] (-) TimerEvent: {}
+[169.357569] (-) TimerEvent: {}
+[169.458327] (-) TimerEvent: {}
+[169.559328] (-) TimerEvent: {}
+[169.660078] (-) TimerEvent: {}
+[169.760808] (-) TimerEvent: {}
+[169.861280] (-) TimerEvent: {}
+[169.962338] (-) TimerEvent: {}
+[170.062948] (-) TimerEvent: {}
+[170.163829] (-) TimerEvent: {}
+[170.264501] (-) TimerEvent: {}
+[170.365559] (-) TimerEvent: {}
+[170.467867] (-) TimerEvent: {}
+[170.568735] (-) TimerEvent: {}
+[170.669752] (-) TimerEvent: {}
+[170.770597] (-) TimerEvent: {}
+[170.871064] (-) TimerEvent: {}
+[170.971724] (-) TimerEvent: {}
+[171.072585] (-) TimerEvent: {}
+[171.173271] (-) TimerEvent: {}
+[171.273616] (-) TimerEvent: {}
+[171.374389] (-) TimerEvent: {}
+[171.475155] (-) TimerEvent: {}
+[171.576231] (-) TimerEvent: {}
+[171.676890] (-) TimerEvent: {}
+[171.777326] (-) TimerEvent: {}
+[171.877763] (-) TimerEvent: {}
+[171.979804] (-) TimerEvent: {}
+[172.080631] (-) TimerEvent: {}
+[172.181125] (-) TimerEvent: {}
+[172.281610] (-) TimerEvent: {}
+[172.382107] (-) TimerEvent: {}
+[172.491915] (-) TimerEvent: {}
+[172.596511] (-) TimerEvent: {}
+[172.697270] (-) TimerEvent: {}
+[172.798801] (-) TimerEvent: {}
+[172.899250] (-) TimerEvent: {}
+[172.999704] (-) TimerEvent: {}
+[173.100242] (-) TimerEvent: {}
+[173.200827] (-) TimerEvent: {}
+[173.301535] (-) TimerEvent: {}
+[173.402157] (-) TimerEvent: {}
+[173.502827] (-) TimerEvent: {}
+[173.603479] (-) TimerEvent: {}
+[173.704111] (-) TimerEvent: {}
+[173.804736] (-) TimerEvent: {}
+[173.905364] (-) TimerEvent: {}
+[174.006002] (-) TimerEvent: {}
+[174.106638] (-) TimerEvent: {}
+[174.207343] (-) TimerEvent: {}
+[174.308041] (-) TimerEvent: {}
+[174.408677] (-) TimerEvent: {}
+[174.509401] (-) TimerEvent: {}
+[174.610213] (-) TimerEvent: {}
+[174.711045] (-) TimerEvent: {}
+[174.811903] (-) TimerEvent: {}
+[174.912696] (-) TimerEvent: {}
+[175.013742] (-) TimerEvent: {}
+[175.114415] (-) TimerEvent: {}
+[175.215390] (-) TimerEvent: {}
+[175.316249] (-) TimerEvent: {}
+[175.417308] (-) TimerEvent: {}
+[175.518152] (-) TimerEvent: {}
+[175.618997] (-) TimerEvent: {}
+[175.719772] (-) TimerEvent: {}
+[175.820603] (-) TimerEvent: {}
+[175.921449] (-) TimerEvent: {}
+[176.022024] (-) TimerEvent: {}
+[176.122787] (-) TimerEvent: {}
+[176.224209] (-) TimerEvent: {}
+[176.326669] (-) TimerEvent: {}
+[176.427314] (-) TimerEvent: {}
+[176.527870] (-) TimerEvent: {}
+[176.628447] (-) TimerEvent: {}
+[176.729010] (-) TimerEvent: {}
+[176.829577] (-) TimerEvent: {}
+[176.930285] (-) TimerEvent: {}
+[177.030860] (-) TimerEvent: {}
+[177.131418] (-) TimerEvent: {}
+[177.231960] (-) TimerEvent: {}
+[177.332572] (-) TimerEvent: {}
+[177.433153] (-) TimerEvent: {}
+[177.533691] (-) TimerEvent: {}
+[177.634260] (-) TimerEvent: {}
+[177.734865] (-) TimerEvent: {}
+[177.835440] (-) TimerEvent: {}
+[177.936020] (-) TimerEvent: {}
+[178.036604] (-) TimerEvent: {}
+[178.137157] (-) TimerEvent: {}
+[178.237765] (-) TimerEvent: {}
+[178.338248] (-) TimerEvent: {}
+[178.438967] (-) TimerEvent: {}
+[178.540015] (-) TimerEvent: {}
+[178.640479] (-) TimerEvent: {}
+[178.741135] (-) TimerEvent: {}
+[178.841503] (-) TimerEvent: {}
+[178.942119] (-) TimerEvent: {}
+[179.043155] (-) TimerEvent: {}
+[179.143909] (-) TimerEvent: {}
+[179.244848] (-) TimerEvent: {}
+[179.345588] (-) TimerEvent: {}
+[179.446266] (-) TimerEvent: {}
+[179.547037] (-) TimerEvent: {}
+[179.647705] (-) TimerEvent: {}
+[179.748262] (-) TimerEvent: {}
+[179.848886] (-) TimerEvent: {}
+[179.949573] (-) TimerEvent: {}
+[180.038834] (realsense_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense_gazebo_plugin.so\x1b[0m\n'}
+[180.056402] (-) TimerEvent: {}
+[180.156896] (-) TimerEvent: {}
+[180.257586] (-) TimerEvent: {}
+[180.358371] (-) TimerEvent: {}
+[180.459214] (-) TimerEvent: {}
+[180.560098] (-) TimerEvent: {}
+[180.660830] (-) TimerEvent: {}
+[180.761736] (-) TimerEvent: {}
+[180.862502] (-) TimerEvent: {}
+[180.963501] (-) TimerEvent: {}
+[181.064263] (-) TimerEvent: {}
+[181.165122] (-) TimerEvent: {}
+[181.265932] (-) TimerEvent: {}
+[181.366773] (-) TimerEvent: {}
+[181.467567] (-) TimerEvent: {}
+[181.568415] (-) TimerEvent: {}
+[181.669026] (-) TimerEvent: {}
+[181.770035] (-) TimerEvent: {}
+[181.871639] (-) TimerEvent: {}
+[181.972238] (-) TimerEvent: {}
+[182.073088] (-) TimerEvent: {}
+[182.174180] (-) TimerEvent: {}
+[182.275433] (-) TimerEvent: {}
+[182.376149] (-) TimerEvent: {}
+[182.476850] (-) TimerEvent: {}
+[182.577624] (-) TimerEvent: {}
+[182.678406] (-) TimerEvent: {}
+[182.779356] (-) TimerEvent: {}
+[182.879962] (-) TimerEvent: {}
+[182.980673] (-) TimerEvent: {}
+[183.081495] (-) TimerEvent: {}
+[183.182214] (-) TimerEvent: {}
+[183.282797] (-) TimerEvent: {}
+[183.289417] (realsense_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target realsense_gazebo_plugin\n'}
+[183.382915] (-) TimerEvent: {}
+[183.483522] (-) TimerEvent: {}
+[183.491034] (realsense_gazebo_plugin) CommandEnded: {'returncode': 0}
+[183.583693] (-) TimerEvent: {}
+[183.684357] (-) TimerEvent: {}
+[183.784997] (-) TimerEvent: {}
+[183.817654] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'install'}
+[183.835840] (realsense_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/linh/ser_ws/build/realsense_gazebo_plugin'], 'cwd': '/home/linh/ser_ws/build/realsense_gazebo_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'linh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/linh'), ('OLDPWD', '/home/linh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1741'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'linh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/linh-virtual-machine:@/tmp/.ICE-unix/1689,unix/linh-virtual-machine:/tmp/.ICE-unix/1689'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92e0fed6_dfae_4381_82c2_6a36a86342f8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WVUGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.14452'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/linh/ser_ws/build/realsense_gazebo_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[183.883615] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[183.885462] (-) TimerEvent: {}
+[183.893951] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so\n'}
+[183.935117] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/linh/ser_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so" to ""\n'}
+[183.940050] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/include/\n'}
+[183.950024] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin\n'}
+[183.959490] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h\n'}
+[183.970120] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h\n'}
+[183.978629] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh\n'}
+[183.984266] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv\n'}
+[183.986331] (-) TimerEvent: {}
+[183.997066] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin\n'}
+[184.003507] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin\n'}
+[184.007775] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh\n'}
+[184.011168] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv\n'}
+[184.014291] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh\n'}
+[184.019443] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv\n'}
+[184.026887] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash\n'}
+[184.031554] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh\n'}
+[184.036172] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh\n'}
+[184.039993] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv\n'}
+[184.043186] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv\n'}
+[184.050984] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin\n'}
+[184.053429] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[184.056056] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[184.059386] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake\n'}
+[184.061878] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake\n'}
+[184.064358] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml\n'}
+[184.072685] (realsense_gazebo_plugin) CommandEnded: {'returncode': 0}
+[184.086471] (-) TimerEvent: {}
+[184.187251] (-) TimerEvent: {}
+[184.288531] (-) TimerEvent: {}
+[184.389164] (-) TimerEvent: {}
+[184.489510] (-) TimerEvent: {}
+[184.590878] (-) TimerEvent: {}
+[184.691203] (-) TimerEvent: {}
+[184.791970] (-) TimerEvent: {}
+[184.892531] (-) TimerEvent: {}
+[184.953812] (realsense_gazebo_plugin) JobEnded: {'identifier': 'realsense_gazebo_plugin', 'rc': 0}
+[185.002129] (-) TimerEvent: {}
+[185.016131] (-) EventReactorShutdown: {}

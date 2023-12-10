@@ -1,0 +1,30 @@
+[0.197s] Invoking command in '/home/linh/ser_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/linh/ser_ws/build/realsense_gazebo_plugin -- -j2 -l2
+[1.167s] [100%] Built target realsense_gazebo_plugin
+[1.365s] Invoked command in '/home/linh/ser_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --build /home/linh/ser_ws/build/realsense_gazebo_plugin -- -j2 -l2
+[1.721s] Invoking command in '/home/linh/ser_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --install /home/linh/ser_ws/build/realsense_gazebo_plugin
+[1.778s] -- Install configuration: ""
+[1.783s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+[1.784s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/include/
+[1.784s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin
+[1.784s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+[1.785s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+[1.785s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[1.785s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[1.785s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[1.786s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[1.786s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[1.787s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[1.788s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[1.788s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[1.792s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[1.793s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[1.793s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[1.794s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[1.794s] -- Installing: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[1.794s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[1.794s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.794s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.795s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[1.795s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[1.795s] -- Up-to-date: /home/linh/ser_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[1.804s] Invoked command in '/home/linh/ser_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --install /home/linh/ser_ws/build/realsense_gazebo_plugin

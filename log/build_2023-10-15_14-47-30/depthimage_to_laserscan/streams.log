@@ -1,0 +1,123 @@
+[0.295s] Invoking command in '/home/linh/ser_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/linh/ser_ws/src/depthimage_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/linh/ser_ws/install/depthimage_to_laserscan
+[0.989s] -- The C compiler identification is GNU 11.4.0
+[1.411s] -- The CXX compiler identification is GNU 11.4.0
+[1.453s] -- Detecting C compiler ABI info
+[1.783s] -- Detecting C compiler ABI info - done
+[1.804s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.807s] -- Detecting C compile features
+[1.807s] -- Detecting C compile features - done
+[1.814s] -- Detecting CXX compiler ABI info
+[2.099s] -- Detecting CXX compiler ABI info - done
+[2.132s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.134s] -- Detecting CXX compile features
+[2.136s] -- Detecting CXX compile features - done
+[2.148s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.660s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.965s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[3.174s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.205s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.255s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.045s] -- Found OpenCV: /usr (found version "4.5.4") found components: core 
+[4.051s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[4.259s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.270s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.529s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.589s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.718s] -- Looking for pthread.h
+[5.172s] -- Looking for pthread.h - found
+[5.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.433s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.437s] -- Found Threads: TRUE  
+[5.969s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.306s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[6.819s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[6.821s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[7.070s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[7.072s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[7.378s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[7.411s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.759s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.787s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.813s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.814s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linh/ser_ws/src/depthimage_to_laserscan/include>
+[7.814s] -- Configured cppcheck exclude dirs and/or files: 
+[7.827s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.827s] -- Configured cpplint exclude dirs and/or files: 
+[7.830s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.835s] -- Added test 'lint_cmake' to check CMake code style
+[7.838s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.850s] -- Added test 'uncrustify' to check C / C++ code style
+[7.851s] -- Configured uncrustify additional arguments: 
+[7.855s] -- Added test 'xmllint' to check XML markup files
+[7.893s] -- Configuring done
+[8.046s] -- Generating done
+[8.060s] -- Build files have been written to: /home/linh/ser_ws/build/depthimage_to_laserscan
+[8.108s] Invoked command in '/home/linh/ser_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/linh/ser_ws/src/depthimage_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/linh/ser_ws/install/depthimage_to_laserscan
+[8.109s] Invoking command in '/home/linh/ser_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linh/ser_ws/build/depthimage_to_laserscan -- -j2 -l2
+[8.306s] [  8%] [32mBuilding CXX object CMakeFiles/DepthImageToLaserScan.dir/src/DepthImageToLaserScan.cpp.o[0m
+[13.076s] [ 16%] [32m[1mLinking CXX shared library libDepthImageToLaserScan.so[0m
+[13.465s] [ 16%] Built target DepthImageToLaserScan
+[13.539s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.051s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[16.171s] [ 33%] Built target gtest_main
+[16.243s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[26.774s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.992s] [ 50%] Built target gtest
+[27.070s] [ 58%] [32mBuilding CXX object CMakeFiles/DepthImageToLaserScanROS.dir/src/DepthImageToLaserScanROS.cpp.o[0m
+[78.463s] [ 66%] [32m[1mLinking CXX shared library libDepthImageToLaserScanROS.so[0m
+[81.084s] [ 66%] Built target DepthImageToLaserScanROS
+[81.207s] [ 75%] [32mBuilding CXX object CMakeFiles/depthimage_to_laserscan-test.dir/test/DepthImageToLaserScanTest.cpp.o[0m
+[89.434s] [ 83%] [32m[1mLinking CXX executable depthimage_to_laserscan-test[0m
+[90.067s] [ 83%] Built target depthimage_to_laserscan-test
+[90.190s] [ 91%] [32mBuilding CXX object CMakeFiles/depthimage_to_laserscan_node.dir/src/depthimage_to_laserscan.cpp.o[0m
+[104.198s] [100%] [32m[1mLinking CXX executable depthimage_to_laserscan_node[0m
+[105.182s] [100%] Built target depthimage_to_laserscan_node
+[105.534s] Invoked command in '/home/linh/ser_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linh/ser_ws/build/depthimage_to_laserscan -- -j2 -l2
+[105.883s] Invoking command in '/home/linh/ser_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/linh/ser_ws/build/depthimage_to_laserscan
+[105.923s] -- Install configuration: ""
+[105.926s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan
+[105.927s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan
+[105.927s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS.hpp
+[105.928s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan.hpp
+[105.928s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/depth_traits.hpp
+[105.929s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch
+[105.930s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan-launch.py
+[105.932s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//launch/depthimage_to_laserscan_composed-launch.py
+[105.933s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg
+[105.933s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan//cfg/param.yaml
+[105.935s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so
+[105.936s] -- Set runtime path of "/home/linh/ser_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so" to ""
+[105.936s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so
+[105.984s] -- Set runtime path of "/home/linh/ser_ws/install/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so" to ""
+[105.985s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node
+[105.986s] -- Set runtime path of "/home/linh/ser_ws/install/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan_node" to ""
+[105.986s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScan_export.h
+[105.987s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/include/depthimage_to_laserscan/depthimage_to_laserscan/DepthImageToLaserScanROS_export.h
+[105.992s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.sh
+[105.994s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/library_path.dsv
+[105.998s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/package_run_dependencies/depthimage_to_laserscan
+[106.000s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/parent_prefix_path/depthimage_to_laserscan
+[106.004s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.sh
+[106.005s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/ament_prefix_path.dsv
+[106.006s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.sh
+[106.007s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/environment/path.dsv
+[106.008s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.bash
+[106.009s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.sh
+[106.011s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.zsh
+[106.011s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/local_setup.dsv
+[106.012s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv
+[106.014s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/packages/depthimage_to_laserscan
+[106.015s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/ament_index/resource_index/rclcpp_components/depthimage_to_laserscan
+[106.019s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport.cmake
+[106.020s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/export_depthimage_to_laserscanExport-noconfig.cmake
+[106.022s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[106.025s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[106.026s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_targets-extras.cmake
+[106.029s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.032s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig.cmake
+[106.033s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig-version.cmake
+[106.035s] -- Installing: /home/linh/ser_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.xml
+[106.070s] Invoked command in '/home/linh/ser_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/linh/ser_ws/build/depthimage_to_laserscan
